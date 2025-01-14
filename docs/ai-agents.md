@@ -22,7 +22,7 @@ A collection of frameworks and tools for building AI agents.
 - **Demo**: [Replit Template](https://replit.com/@blormdev/ZerePy?v=1)
 - **Description**: A Python framework for building zero-shot capable AI agents
 - **Key Features**:
-  - CLI interface for managing agents
+  - CLI for managing agents
   - Multiple LLM support (OpenAI, Anthropic, EternalAI, etc.)
   - Social platform integrations (Twitter/X, Farcaster)
   - Blockchain integration with Solana

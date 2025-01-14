@@ -5,13 +5,18 @@ description: "Rules for managing and updating the AI research documentation"
 
 # Documentation Structure Rules
 structure:
-  - All documentation files should be in markdown format
+  - All documentation files should be in Markdown format
   - Place new documentation in appropriate /docs subdirectories
   - Include front matter in all markdown files
   - Maintain consistent section structure
+  - Sort dependencies alphabetically in configuration files
 
 # Content Format
 format:
+  writing:
+    - Capitalize proper nouns (e.g., "Markdown", "Ruby", "Jekyll")
+    - Avoid redundant words (e.g., "CLI interface", "API interface")
+    - Use consistent terminology throughout
   sections:
     - title: Required at top level
     - description: Brief overview

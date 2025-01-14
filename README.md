@@ -27,7 +27,7 @@ We welcome contributions to improve this documentation! Here's how you can help:
    - Submit a pull request
 
 2. **Style Guidelines**
-   - Use markdown for documentation
+   - Use Markdown for documentation
    - Follow the existing structure
    - Include front matter in all pages
    - Keep descriptions concise and clear

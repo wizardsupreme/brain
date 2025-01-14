@@ -33,11 +33,12 @@ Overview of prominent AI language models and their capabilities.
   - Multiple versions (Claude 2, Claude 3)
 
 ## DeepSeek
+- **Website**: [deepseek.ai](https://deepseek.ai)
+- **Access**: [DeepSeek Chat](https://chat.deepseek.com)
+- **GitHub**: [deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
 - **Description**: Open-source language model
 - **Key Features**:
   - Code generation
-  - Technical understanding
-  - Multiple model sizes
 
 ## Llama 3
 - **Provider**: Meta

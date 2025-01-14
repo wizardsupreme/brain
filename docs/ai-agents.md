@@ -18,10 +18,14 @@ A collection of frameworks and tools for building AI agents.
   - System-level AI integration
 
 ## Zerepy
+- **GitHub**: [blorm-network/ZerePy](https://github.com/blorm-network/ZerePy)
+- **Demo**: [Replit Template](https://replit.com/@blormdev/ZerePy?v=1)
 - **Description**: A Python framework for building zero-shot capable AI agents
-- **Use Cases**: 
-  - Autonomous task execution
-  - AI workflow automation
+- **Key Features**:
+  - CLI interface for managing agents
+  - Multiple LLM support (OpenAI, Anthropic, EternalAI, etc.)
+  - Social platform integrations (Twitter/X, Farcaster)
+  - Blockchain integration with Solana
 
 ## LangChain
 - **GitHub**: [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
@@ -33,13 +37,21 @@ A collection of frameworks and tools for building AI agents.
   - Memory management
   - Model integration
 
-## AutoGPT/BabyAGI
+## AutoGPT
 - **GitHub**: [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
 - **Description**: Autonomous AI agents that can perform complex tasks
-- **Features**:
+- **Key Features**:
   - Task decomposition
   - Autonomous goal pursuit
   - Internet access capabilities
+
+## BabyAGI
+- **GitHub**: [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi)
+- **Description**: Task-driven autonomous AI agent
+- **Key Features**:
+  - Task creation and prioritization
+  - Autonomous execution
+  - Memory management
 
 ## Haystack
 - **GitHub**: [deepset-ai/haystack](https://github.com/deepset-ai/haystack)

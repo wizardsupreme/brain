@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Models
+nav_order: 3
+has_children: false
+---
+
 # AI Models
 
 Overview of prominent AI language models and their capabilities.

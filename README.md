@@ -1,3 +1,9 @@
+---
+layout: home
+title: Home
+nav_order: 1
+---
+
 # AI Research Documentation
 A curated collection of AI tools, frameworks, and resources.
 
@@ -5,6 +11,7 @@ A curated collection of AI tools, frameworks, and resources.
 - [AI Agents](docs/ai-agents.md)
 - [AI Models](docs/ai-models.md)
 - [Development Tools](docs/development-tools.md)
+- [Documentation Tools](docs/development-tools/github-pages.md)
 - [IDEs and Editors](docs/ides-editors.md)
 
 ## About This Repository

@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Agents
+nav_order: 2
+has_children: false
+---
+
 # AI Agents
 
 A collection of frameworks and tools for building AI agents.

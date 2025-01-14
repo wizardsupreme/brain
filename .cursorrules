@@ -1,0 +1,75 @@
+# Cursor Rules for AI Research Documentation
+name: "AI Research Documentation Rules"
+version: 1.0
+description: "Rules for managing and updating the AI research documentation"
+
+# Documentation Structure Rules
+structure:
+  - All documentation files should be in markdown format
+  - Place new documentation in appropriate /docs subdirectories
+  - Include front matter in all markdown files
+  - Maintain consistent section structure
+
+# Content Format
+format:
+  sections:
+    - title: Required at top level
+    - description: Brief overview
+    - features: Listed under "Key Features"
+    - links: GitHub/Documentation/Website as applicable
+    
+  frontMatter:
+    required:
+      - layout
+      - title
+      - nav_order
+    optional:
+      - has_children
+      - parent
+
+# Section Template
+template: |
+  ---
+  layout: default
+  title: Section Title
+  nav_order: [number]
+  ---
+
+  # [Section Title]
+
+  Brief description of the section.
+
+  ## [Tool/Framework Name]
+  - **GitHub**: [org/repo](https://github.com/org/repo)
+  - **Documentation**: [Docs](https://docs.example.com)
+  - **Description**: Concise description
+  - **Key Features**:
+    - Feature 1
+    - Feature 2
+    - Feature 3
+
+# Update Instructions
+instructions:
+  - Verify GitHub links before adding
+  - Keep descriptions concise and factual
+  - Standardize feature lists under "Key Features"
+  - Include relevant links (GitHub, docs, demos)
+  - Maintain alphabetical order within sections
+  - Add front matter to all new pages
+
+# Categories
+categories:
+  - AI Agents
+  - AI Models
+  - Development Tools
+  - Documentation Tools
+  - IDEs and Editors
+
+# Search Terms
+searchTerms:
+  - AI
+  - Machine Learning
+  - Documentation
+  - Tools
+  - Frameworks
+  - Models 

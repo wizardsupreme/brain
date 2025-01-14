@@ -39,5 +39,8 @@ We welcome contributions to improve this documentation! Here's how you can help:
 
 For detailed guidelines, see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
+## Local Development
+For instructions on running this documentation locally, see our [Local Development Guide](docs/development-tools/local-development.md).
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

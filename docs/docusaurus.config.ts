@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Wizard Supreme Official AI Brain',
+  title: 'Wizard Supreme\'s Official AI Brain',
   tagline: 'AI, Crypto, Productivity and Everything Else',
   favicon: 'img/nayeemai-favicon.ico',
 
@@ -13,7 +13,7 @@ const config: Config = {
 
   // GitHub pages deployment config
   organizationName: 'wizardsupreme', // GitHub org/user name
-  projectName: 'docs', // Repository name
+  projectName: 'brain', // Repository name
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

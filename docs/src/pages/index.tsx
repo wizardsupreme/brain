@@ -1,12 +1,15 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './styles.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  const imageUrl = useBaseUrl('img/icons/brain.png');
+  
   return (
     <header className={styles.heroBanner}>
       <div className="container">
@@ -30,7 +33,7 @@ function HomepageHeader() {
               <div className={styles.githubButton}>
                 <iframe
                   src="https://ghbtns.com/github-btn.html?user=wizardsupreme&repo=brain&type=star&count=true&size=large"
-                  frameBorder="0"
+                  style={{ border: 0 }}
                   scrolling="0"
                   width="135"
                   height="30"
@@ -41,15 +44,10 @@ function HomepageHeader() {
           </div>
           <div className={styles.heroRight}>
             <img
-              src="img/nayeemai.jpg"
+              src={imageUrl}
               className={styles.heroImage}
-              alt="Wizard Supreme"
+              alt="Wizard Supreme Brain"
             />
-            <pre className={styles.codeBlock}>
-              <code className="language-bash">
-                npm install @wizardsupreme/brain
-              </code>
-            </pre>
           </div>
         </div>
       </div>

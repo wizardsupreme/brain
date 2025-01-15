@@ -13,6 +13,7 @@ A collection of frameworks and tools for building AI agents.
   - AI-first architecture
   - Built-in agent capabilities
   - System-level AI integration
+  - TypeScript
 
 ## Zerepy
 - **GitHub**: [blorm-network/ZerePy](https://github.com/blorm-network/ZerePy)
@@ -23,6 +24,7 @@ A collection of frameworks and tools for building AI agents.
   - Multiple LLM support (OpenAI, Anthropic, EternalAI, etc.)
   - Social platform integrations (Twitter/X, Farcaster)
   - Blockchain integration with Solana
+  - Python
 
 ## LangChain
 - **GitHub**: [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
@@ -33,6 +35,7 @@ A collection of frameworks and tools for building AI agents.
   - Document handling
   - Memory management
   - Model integration
+  - Python
 
 ## AutoGPT
 - **GitHub**: [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
@@ -41,6 +44,7 @@ A collection of frameworks and tools for building AI agents.
   - Task decomposition
   - Autonomous goal pursuit
   - Internet access capabilities
+  - Python
 
 ## BabyAGI
 - **GitHub**: [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi)
@@ -49,7 +53,8 @@ A collection of frameworks and tools for building AI agents.
   - Task creation and prioritization
   - Autonomous execution
   - Memory management
-
+  - Python
+  
 ## Haystack
 - **GitHub**: [deepset-ai/haystack](https://github.com/deepset-ai/haystack)
 - **Documentation**: [Haystack Docs](https://docs.haystack.deepset.ai/)

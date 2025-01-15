@@ -25,7 +25,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'ai/models',
         'ai/agents',
-        'ai/tools',
+        'ai/ide',
       ],
     },
     {

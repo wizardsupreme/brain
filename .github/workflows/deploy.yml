@@ -1,5 +1,4 @@
-
-name: Deploy Site
+name: Deploy Docusaurus Site
 
 on:
   push:
@@ -17,16 +16,20 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '18'
+        node-version: '16'
 
     - name: Install dependencies
-      run: yarn
+      run: |
+        cd docs # Navigate to the correct directory if `package.json` is in `docs`
+        yarn
 
     - name: Build site
-      run: yarn build
+      run: |
+        cd docs # Ensure we're in the correct directory
+        yarn build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
+        publish_dir: docs/build # Update the path to the correct `build` directory

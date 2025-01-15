@@ -30,7 +30,7 @@ function HomepageHeader() {
               <div className={styles.githubButton}>
                 <iframe
                   src="https://ghbtns.com/github-btn.html?user=wizardsupreme&repo=brain&type=star&count=true&size=large"
-                  frameBorder="0"
+                  style={{ border: 0 }}
                   scrolling="0"
                   width="135"
                   height="30"
@@ -41,7 +41,7 @@ function HomepageHeader() {
           </div>
           <div className={styles.heroRight}>
             <img
-              src="img/icons/brain.png"
+              src={`${siteConfig.baseUrl}img/icons/brain.png`}
               className={styles.heroImage}
               alt="Wizard Supreme Brain"
             />

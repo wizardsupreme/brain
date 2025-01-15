@@ -1,66 +1,77 @@
-# Cursor Rules for AI Research Documentation
-name: "AI Research Documentation Rules"
+# Cursor Rules for AI Grain Documentation
+name: "AI Brain Documentation Management Rules"
 version: 1.0
-description: "Rules for managing and updating the AI research documentation"
+description: "Rules for managing and updating the AI Brain documentation in Docusaurus"
 
 # Documentation Structure Rules
 structure:
-  - All documentation files should be in Markdown format
-  - Place new documentation in appropriate /docs subdirectories
-  - Include front matter in all markdown files
-  - Maintain consistent section structure
-  - Sort dependencies alphabetically in configuration files
+  - Store documentation files in /docs directory with .md or .mdx extension
+  - Use numbered prefixes for ordering (e.g., 01-intro.md, 02-setup.md)
+  - Create sidebar.js file in /sidebars.js for navigation
+  - Place shared assets in /static directory
+  - Keep images in /static/img subdirectory
+  - Use relative links with @site alias
 
 # Content Format
 format:
   writing:
-    - Capitalize proper nouns (e.g., "Markdown", "Ruby", "Jekyll")
-    - Avoid redundant words (e.g., "CLI interface", "API interface")
-    - Use consistent terminology throughout
+    - Use sentence case for headers
+    - Apply consistent component capitalization
+    - Follow Docusaurus Markdown extensions syntax
+    - Use MDX for advanced components when needed
   sections:
     - title: Required at top level
     - description: Brief overview
-    - features: Listed under "Key Features"
-    - links: GitHub/Documentation/Website as applicable
+    - features: Listed using Docusaurus admonitions
+    - links: Cross-reference using relative paths
     
   frontMatter:
     required:
-      - layout
-      - title
-      - nav_order
+      - id: unique identifier for document
+      - title: page title
+      - sidebar_position: ordering in sidebar
     optional:
-      - has_children
-      - parent
+      - sidebar_label: shorter sidebar text
+      - description: meta description
+      - tags: [array, of, tags]
+      - hide_table_of_contents: boolean
+      - custom_edit_url: override edit URL
 
 # Section Template
 template: |
   ---
-  layout: default
+  id: section-name
   title: Section Title
-  nav_order: [number]
+  sidebar_position: 1
+  description: Brief section description
+  tags: [relevant, tags, here]
   ---
 
-  # [Section Title]
+  # Section Title
 
   Brief description of the section.
 
-  ## [Tool/Framework Name]
-  - **GitHub**: [org/repo](https://github.com/org/repo)
-  - **Documentation**: [Docs](https://docs.example.com)
-  - **Description**: Concise description
-  - **Key Features**:
-    - Feature 1
-    - Feature 2
-    - Feature 3
+  :::tip Key Features
+  - Feature 1
+  - Feature 2
+  - Feature 3
+  :::
+
+  ## Links
+  - [GitHub Repository](https://github.com/org/repo)
+  - [Documentation](https://docs.example.com)
 
 # Update Instructions
 instructions:
-  - Verify GitHub links before adding
-  - Keep descriptions concise and factual
-  - Standardize feature lists under "Key Features"
-  - Include relevant links (GitHub, docs, demos)
-  - Maintain alphabetical order within sections
-  - Add front matter to all new pages
+  - Test local builds using `npm run start`
+  - Update sidebars.js when adding new pages
+  - Use @site alias for static assets
+  - Leverage Docusaurus-specific features:
+    - Code tabs for multiple languages
+    - Admonitions for callouts
+    - MDX for custom components
+  - Maintain consistent versioning if enabled
+  - Use appropriate frontmatter for search optimization
 
 # Categories
 categories:
@@ -70,6 +81,15 @@ categories:
   - Documentation Tools
   - IDEs and Editors
 
+# Docusaurus-specific Features
+docusaurusFeatures:
+  - Admonitions: Use for important callouts
+  - CodeBlocks: Include language tabs
+  - Tabs: Group related content
+  - MDX: For interactive components
+  - Search: Optimize metadata
+  - Versioning: If documentation versions needed
+
 # Search Terms
 searchTerms:
   - AI
@@ -77,4 +97,4 @@ searchTerms:
   - Documentation
   - Tools
   - Frameworks
-  - Models 
+  - Models

@@ -5,11 +5,11 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Wizard Supreme\'s Official AI Brain',
   tagline: 'AI, Crypto, Productivity and Everything Else',
-  favicon: 'img/nayeemai-favicon.ico',
+  favicon: 'img/icons/brain.png',
 
   // Set the production URL of your site here
   url: 'https://wizardsupreme.github.io', // Updated URL
-  baseUrl: process.env.VERCEL ? "/" : "/docs", // Updated base URL for GitHub Pages deployment
+  baseUrl: process.env.VERCEL ? "/" : "/docs", // Use "/" for all Vercel deployments (prod/preview), "/docs" for local development
 
   // GitHub pages deployment config
   organizationName: 'wizardsupreme', // GitHub org/user name
@@ -64,8 +64,8 @@ const config: Config = {
     navbar: {
       title: 'Wizard Supreme',
       logo: {
-        alt: 'Wizard Supreme Logo',
-        src: 'img/nayeemai.jpg',
+        alt: 'Brain Logo',
+        src: 'img/icons/brain.png',
       },
       items: [
         {

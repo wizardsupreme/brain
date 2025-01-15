@@ -41,15 +41,10 @@ function HomepageHeader() {
           </div>
           <div className={styles.heroRight}>
             <img
-              src="img/nayeemai.jpg"
+              src="img/icons/brain.png"
               className={styles.heroImage}
-              alt="Wizard Supreme"
+              alt="Wizard Supreme Brain"
             />
-            <pre className={styles.codeBlock}>
-              <code className="language-bash">
-                npm install @wizardsupreme/brain
-              </code>
-            </pre>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 # Wizard Supreme's AI Brain
 
-A comprehensive knowledge base for AI research and development, focusing on AI models, agents, tools, and best practices.
+A concise knowledge base on AI research and development, focusing on AI models, agents, tools, crypto, and best practices.
 
 ## Overview
 

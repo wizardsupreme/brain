@@ -1,8 +1,10 @@
 ---
 layout: default
 title: AI Agents
-nav_order: 2
+nav_order: 1
+parent: AI Research
 has_children: false
+permalink: /docs/ai-agents
 ---
 
 # AI Agents

@@ -2,17 +2,17 @@
 layout: home
 title: Home
 nav_order: 1
+permalink: /
 ---
 
 # AI Research Documentation
 A curated collection of AI tools, frameworks, and resources.
 
 ## Table of Contents
-- [AI Agents](docs/ai-agents.md)
-- [AI Models](docs/ai-models.md)
-- [Development Tools](docs/development-tools.md)
-- [Documentation Tools](docs/development-tools/github-pages.md)
-- [IDEs and Editors](docs/ides-editors.md)
+- [AI Agents](/brain/docs/ai-agents)
+- [AI Models](/brain/docs/ai-models)
+- [Documentation Setup](/brain/docs/development-tools/documentation-setup)
+- [AI IDEs](/brain/docs/ai-ides)
 
 ## About
 This repository serves as a knowledge base for AI-related research, tools, and resources. It's continuously updated with new findings and insights in the field of artificial intelligence.
@@ -38,9 +38,6 @@ We welcome contributions to improve this documentation! Here's how you can help:
    - Include relevant context
 
 For detailed guidelines, see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## Local Development
-For instructions on running this documentation locally, see our [Local Development Guide](docs/development-tools/local-development.md).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

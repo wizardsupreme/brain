@@ -1,8 +1,10 @@
 ---
 layout: default
 title: AI Models
-nav_order: 3
+nav_order: 2
+parent: AI Research
 has_children: false
+permalink: /docs/ai-models
 ---
 
 # AI Models

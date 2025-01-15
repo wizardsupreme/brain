@@ -1,0 +1,66 @@
+# Project information
+site_name: Wizard Supreme Second Brain
+site_description: A curated collection of AI tools, frameworks, and resources
+site_url: https://wizardsupreme.github.io/brain/
+
+# Repository
+repo_name: wizardsupreme/brain
+repo_url: https://github.com/wizardsupreme/brain
+edit_uri: edit/main/docs/
+
+# Theme configuration
+theme:
+  name: material
+  font:
+    text: Segoe UI
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Light mode (default)
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+# Plugins
+plugins:
+  - search
+  - tags
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/wizardsupreme
+      name: Wizard Supreme on GitHub
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+# Navigation
+nav:
+  - Introduction: index.md
+  - AI Research: ai-research/index.md
+  - AI Agents: ai-research/ai-agents.md
+  - AI Models: ai-research/ai-models.md
+  - AI IDEs: ai-research/ai-ides.md
+  - Development: development/index.md
+  - Documentation Setup: development/documentation-setup.md 

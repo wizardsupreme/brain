@@ -1,4 +1,13 @@
-# IDEs and Editors
+---
+layout: default
+title: AI IDEs
+nav_order: 3
+parent: AI Research
+has_children: false
+permalink: /docs/ai-ides
+---
+
+# AI IDEs
 
 AI-enhanced development environments and code editors.
 

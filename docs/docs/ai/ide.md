@@ -15,6 +15,8 @@ AI-enhanced development environments and code editors.
 | VSC + Clint | 8/10 | 7/10 | 7/10 | 6/10 | 7/10 (Free) | 7/10 |
 | Windsurf | 7/10 | 6/10 | 5/10 | 7/10 | 6/10 ($15/m) | 6.5/10 |
 | Bolt.DIY | 4/10 | 5/10 | 4/10 | 6/10 | 8/10 (Free) | 5/10 |
+ 
+- **Overall Score**: Weighted average (Performance: 30%, Refactoring: 20%, Logical Operations: 20%, Deployment: 15%, Price: 15%)
 
 ## Score Categories
 - **Performance**: Speed and responsiveness
@@ -27,43 +29,47 @@ AI-enhanced development environments and code editors.
 ## Cursor
 - **Website**: [cursor.sh](https://cursor.sh)
 - **Description**: AI-first code editor
-- **Key Features**:
+- **Pros**:
   - Advanced AI assistance
   - Robust code completion
   - Excellent performance
+  - Refinement layer is highly optimized for code (better than claude 3.5 sonnet on its own)
+- **Cons**:
   - Limited deployment options
 
 ## Windsurf
 - **Website**: [windsurf.dev](https://windsurf.dev)
 - **Description**: AI-enhanced development environment
-- **Key Features**:
+- **Pros**:
   - Basic refactoring support with room for improvement
-  - Limited capabilities in complex logical operations
   - Integrated deployment options
   - Higher pricing tier
+- **Cons**:
+  - Limited capabilities in complex logical operations
+  - Basic refactoring capabilities
 
 ## Replit
 - **Website**: [replit.com](https://replit.com)
 - **Description**: Online IDE with AI capabilities
-- **Key Features**:
+- **Pros**:
   - Collaborative coding
   - AI-powered assistance
   - Integrated deployment
 - **Cons**:
-  - Not very good at logical thinking.
-  - Not very good at refactoring.
-  - Expensive, the monthly limit finishes very quickly as it charges per commit.
+  - Limited logical reasoning capabilities
+  - Basic refactoring capabilities
+  - High usage-based pricing with rapid credit consumption per commit
 
 ## Bolt.DIY
 - **Website**: [bolt.diy.org](https://bolt.diy.org)
 - **Description**: Custom IDE with AI integration
-- **Key Features**:
+- **Pros**:
   - Code generation
   - Project management
   - AI assistance
 - **Cons**:
-  - Not very good at logical thinking.
-  - Extremely slow, couldn't use it locally properly.
+  - Limited logical reasoning capabilities
+  - Poor local performance, making it impractical for local development
 
 ## VSCode + AI
 - **Marketplace**: [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
@@ -71,11 +77,11 @@ AI-enhanced development environments and code editors.
   - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
   - [Tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
   - [CodeGPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)
-- **Key Features**:
+- **Pros**:
   - AI code completion
   - Natural language queries
   - Code explanations 
 - **Cons**:
-  - Not very good at logical thinking.
-  - Not very good at refactoring.
-  - Not as good as Cursor at refining.
+  - Limited logical reasoning capabilities
+  - Basic refactoring capabilities
+  - Less effective refinement compared to Cursor

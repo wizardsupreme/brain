@@ -13,6 +13,13 @@ AI-enhanced development environments and code editors.
   - Built-in AI assistance
   - Code completion
   - Natural language to code
+  - Claude 3.5 Sonnet
+  - Refining is very optimized. Often does better then asking Claude directly.
+  - Cursor Rules files are very useful.
+- **Cons**:
+  - Slow mode almost unusable once you hit the monthly limit.
+  - Price is higher then windsurf.
+  - No integrated Deployment.
 
 ## Windsurf
 - **Website**: [windsurf.dev](https://windsurf.dev)
@@ -21,6 +28,9 @@ AI-enhanced development environments and code editors.
   - Code generation
   - Intelligent suggestions
   - Development workflow optimization
+- **Cons**:
+  - Not very good at logical thinking.
+  - Not very good at refactoring.
 
 ## Replit
 - **Website**: [replit.com](https://replit.com)
@@ -29,6 +39,10 @@ AI-enhanced development environments and code editors.
   - Collaborative coding
   - AI-powered assistance
   - Integrated deployment
+- **Cons**:
+  - Not very good at logical thinking.
+  - Not very good at refactoring.
+  - Expensive, the monthly limit finishes very quickly as it charges per commit.
 
 ## Bolt.DIY
 - **Website**: [bolt.diy.org](https://bolt.diy.org)
@@ -37,6 +51,9 @@ AI-enhanced development environments and code editors.
   - Code generation
   - Project management
   - AI assistance
+- **Cons**:
+  - Not very good at logical thinking.
+  - Extremely slow, couldnt use it locally properly.
 
 ## VSCode + AI Extensions
 - **Marketplace**: [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
@@ -48,3 +65,7 @@ AI-enhanced development environments and code editors.
   - AI code completion
   - Natural language queries
   - Code explanations 
+- **Cons**:
+  - Not very good at logical thinking.
+  - Not very good at refactoring.
+  - Not as good as Cursor at refining.

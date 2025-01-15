@@ -10,11 +10,11 @@ AI-enhanced development environments and code editors.
 
 | IDE | Performance | Refactoring | Logical Operations | Deployment | Price | Overall Score |
 |-----|-------------|-------------|-------------------|------------|--------|---------------|
-| Cursor | 9/10 | 9/10 | 8/10 | 5/10 | 8/10 ($20/m) | 8.5/10 |
+| Cursor | 9/10 | 9/10 | 8/10 | 7/10 | 8/10 ($20/m) | 8.5/10 |
 | Replit | 8/10 | 7/10 | 7/10 | 9/10 | 6/10 ($25/m) | 7.5/10 |
 | VSC + Clint | 8/10 | 7/10 | 7/10 | 6/10 | 7/10 (Free) | 7/10 |
-| Windsurf | 7/10 | 6/10 | 5/10 | 8/10 | 6/10 ($15/m) | 6.5/10 |
-| Bolt.DIY | 4/10 | 5/10 | 4/10 | 4/10 | 8/10 (Free) | 5/10 |
+| Windsurf | 7/10 | 6/10 | 5/10 | 7/10 | 6/10 ($15/m) | 6.5/10 |
+| Bolt.DIY | 4/10 | 5/10 | 4/10 | 6/10 | 8/10 (Free) | 5/10 |
 
 ## Score Categories
 - **Performance**: Speed and responsiveness

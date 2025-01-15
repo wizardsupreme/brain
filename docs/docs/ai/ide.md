@@ -63,7 +63,7 @@ AI-enhanced development environments and code editors.
   - AI assistance
 - **Cons**:
   - Not very good at logical thinking.
-  - Extremely slow, couldnt use it locally properly.
+  - Extremely slow, couldn't use it locally properly.
 
 ## VSCode + AI
 - **Marketplace**: [Visual Studio Marketplace](https://marketplace.visualstudio.com/)

@@ -1,0 +1,175 @@
+/**
+ * Custom CSS for Wizard Supreme docs
+ */
+
+:root {
+  --ifm-color-primary: #ffa600;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-background-color: #ffffff;
+  --footer-text-color: #1a1a2e;
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: lightblue;
+  --ifm-background-color: #1a1a2e;
+  --ifm-background-surface-color: #242736;
+  --footer-text-color: #ffffff;
+}
+
+/* Hero section */
+.hero {
+  padding: 4rem 0;
+}
+
+.hero-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 2rem;
+  display: block;
+  object-fit: cover;
+}
+
+/* Button styling */
+.button--primary {
+  background: linear-gradient(
+    180deg,
+    rgb(249, 140, 19) 0%,
+    rgb(255, 166, 0) 100%
+  );
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  transition: background 0.3s;
+  color: white;
+}
+
+.button--primary:hover {
+  background: linear-gradient(rgb(255, 156, 43) 0%, rgb(255, 166, 0) 100%);
+}
+
+/* Features section */
+.features {
+  padding: 6rem 0;
+  width: 100%;
+  background: var(--ifm-background-color);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  color: var(--ifm-color-primary);
+  flex-shrink: 0;
+}
+
+.feature-content {
+  flex: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.feature-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+/* Responsive design */
+@media (max-width: 996px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: #242736;
+  --ifm-footer-title-color: #ffffff;
+  --ifm-footer-link-color: #ffffff;
+  opacity: 0.8;
+}
+
+.footer .footer__link-item:hover {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.footer .footer__copyright {
+  color: #ffffff;
+}
+
+.protocol-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* Table of contents icons */
+.table-of-contents__link[href="#ethereum"]::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='16' height='16'%3E%3Cpath fill='%23343434' d='M16 0L6 16l10 6 10-6L16 0z'/%3E%3C/svg%3E");
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.table-of-contents__link[href="#base"]::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='16' height='16'%3E%3Ccircle cx='16' cy='16' r='16' fill='%230052FF'/%3E%3Cpath fill='white' d='M16 7l9 9-9 9-9-9 9-9z'/%3E%3C/svg%3E");
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.table-of-contents__link[href="#arbitrum"]::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='16' height='16'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23213147'/%3E%3Cpath fill='%2328A0F0' d='M16 6l8.5 14H7.5L16 6z'/%3E%3C/svg%3E");
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.table-of-contents__link[href="#solana"]::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='16' height='16'%3E%3Cpath fill='%239945FF' d='M6 8h16l4 4H10z'/%3E%3Cpath fill='%2314F195' d='M6 14h16l4 4H10z'/%3E%3Cpath fill='%2300C2FF' d='M6 20h16l4 4H10z'/%3E%3C/svg%3E");
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.table-of-contents__link[href="#sui"]::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='16' height='16'%3E%3Ccircle cx='16' cy='16' r='16' fill='%236FBCF0'/%3E%3Cpath fill='white' d='M11 11h10v2H11zm0 4h10v2H11zm0 4h10v2H11z'/%3E%3C/svg%3E");
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.table-of-contents__link[href="#cosmos"]::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='16' height='16'%3E%3Ccircle cx='16' cy='16' r='16' fill='%232E3148'/%3E%3Ccircle cx='16' cy='16' r='3' fill='white'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='white' stroke-width='1'/%3E%3Ccircle cx='16' cy='16' r='12' fill='none' stroke='white' stroke-width='1'/%3E%3C/svg%3E");
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}

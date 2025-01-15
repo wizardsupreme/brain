@@ -1,0 +1,100 @@
+# Cursor Rules for AI Grain Documentation
+name: "AI Brain Documentation Management Rules"
+version: 1.0
+description: "Rules for managing and updating the AI Brain documentation in Docusaurus"
+
+# Documentation Structure Rules
+structure:
+  - Store documentation files in /docs directory with .md or .mdx extension
+  - Use numbered prefixes for ordering (e.g., 01-intro.md, 02-setup.md)
+  - Create sidebar.js file in /sidebars.js for navigation
+  - Place shared assets in /static directory
+  - Keep images in /static/img subdirectory
+  - Use relative links with @site alias
+
+# Content Format
+format:
+  writing:
+    - Use sentence case for headers
+    - Apply consistent component capitalization
+    - Follow Docusaurus Markdown extensions syntax
+    - Use MDX for advanced components when needed
+  sections:
+    - title: Required at top level
+    - description: Brief overview
+    - features: Listed using Docusaurus admonitions
+    - links: Cross-reference using relative paths
+    
+  frontMatter:
+    required:
+      - id: unique identifier for document
+      - title: page title
+      - sidebar_position: ordering in sidebar
+    optional:
+      - sidebar_label: shorter sidebar text
+      - description: meta description
+      - tags: [array, of, tags]
+      - hide_table_of_contents: boolean
+      - custom_edit_url: override edit URL
+
+# Section Template
+template: |
+  ---
+  id: section-name
+  title: Section Title
+  sidebar_position: 1
+  description: Brief section description
+  tags: [relevant, tags, here]
+  ---
+
+  # Section Title
+
+  Brief description of the section.
+
+  :::tip Key Features
+  - Feature 1
+  - Feature 2
+  - Feature 3
+  :::
+
+  ## Links
+  - [GitHub Repository](https://github.com/org/repo)
+  - [Documentation](https://docs.example.com)
+
+# Update Instructions
+instructions:
+  - Test local builds using `npm run start`
+  - Update sidebars.js when adding new pages
+  - Use @site alias for static assets
+  - Leverage Docusaurus-specific features:
+    - Code tabs for multiple languages
+    - Admonitions for callouts
+    - MDX for custom components
+  - Maintain consistent versioning if enabled
+  - Use appropriate frontmatter for search optimization
+
+# Categories
+categories:
+  - AI Agents
+  - AI Models
+  - Development Tools
+  - Documentation Tools
+  - IDEs and Editors
+
+# Docusaurus-specific Features
+docusaurusFeatures:
+  - Admonitions: Use for important callouts
+  - CodeBlocks: Include language tabs
+  - Tabs: Group related content
+  - MDX: For interactive components
+  - Search: Optimize metadata
+  - Versioning: If documentation versions needed
+
+# Search Terms
+searchTerms:
+  - AI
+  - Machine Learning
+  - Documentation
+  - Tools
+  - Frameworks
+  - Models

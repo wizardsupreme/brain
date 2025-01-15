@@ -1,0 +1,69 @@
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+# IDE specific files
+.idea
+.vscode
+*.swp
+*.swo
+.vs/
+*.sublime-workspace
+*.sublime-project
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Local Netlify folder
+.netlify
+
+# TypeScript
+*.tsbuildinfo
+
+# Test coverage
+/coverage
+
+# Temporary files
+*.tmp
+*.temp
+.cache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Search index files
+.docusaurus/
+
+# Optional: local environment files
+.env.local
+.env.*.local
+
+# Optional: yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*

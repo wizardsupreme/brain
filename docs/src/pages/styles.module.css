@@ -1,0 +1,81 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.headerTextGradient {
+  background: linear-gradient(90deg, #ffa600 0%, #ff8c00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroSubtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heroRight {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.codeBlock {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin: 0;
+  width: 100%;
+  max-width: 400px;
+  backdrop-filter: blur(10px);
+}
+
+@media screen and (max-width: 996px) {
+  .heroSection {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .buttonGroup {
+    justify-content: center;
+  }
+
+  .heroRight {
+    width: 100%;
+    padding: 2rem 0;
+  }
+} 

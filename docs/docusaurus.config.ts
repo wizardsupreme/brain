@@ -13,7 +13,7 @@ const config: Config = {
 
   // GitHub pages deployment config
   organizationName: 'wizardsupreme', // GitHub org/user name
-  projectName: 'docs', // Repository name
+  projectName: 'brain', // Repository name
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

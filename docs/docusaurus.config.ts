@@ -9,7 +9,7 @@ const config: Config = {
 
   // Set the production URL of your site here
   url: 'https://wizardsupreme.github.io', // Updated URL
-  baseUrl: process.env.VERCEL_ENV === "production" ? "/" : "/docs", // Updated base URL for GitHub Pages deployment
+  baseUrl: process.env.VERCEL ? "/" : "/docs", // Updated base URL for GitHub Pages deployment
 
   // GitHub pages deployment config
   organizationName: 'wizardsupreme', // GitHub org/user name

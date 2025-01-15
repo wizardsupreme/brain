@@ -1,41 +1,72 @@
-# Website
+# Wizard Supreme's AI Brain
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+A comprehensive knowledge base for AI research and development, focusing on AI models, agents, tools, and best practices.
 
-### Installation
+## Overview
 
+This documentation site covers:
+- AI Models and their capabilities
+- AI Agent frameworks and tools
+- Development environments and IDEs
+- Crypto/Web3 development resources
+- Productivity tools and workflows
+
+## Features
+
+- 📚 Comprehensive documentation
+- 🔍 Full-text search
+- 🌙 Dark/Light mode
+- 📱 Mobile responsive
+- 🔄 Regular updates
+
+## Local Development
+```bash
+# Install dependencies
+cd docs
+npm install
+
+# Start development server
+npm run start
+
+# Build for production
+npm run build
 ```
-$ yarn
-```
+## Documentation Structure
 
-### Local Development
+docs/
+├── ai/
+│ ├── models.md # AI language models
+│ ├── agents.md # AI agent frameworks
+│ └── ide.md # AI-enhanced IDEs
+├── crypto/
+│ ├── protocols.md # Blockchain protocols
+│ ├── defi.md # DeFi systems
+│ └── web3.md # Web3 development
+└── productivity/
+├── workflows.md # Development workflows
+├── documentation.md # Documentation systems
+└── automation.md # Automation tools
 
-```
-$ yarn start
-```
+## Contributing
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-### Build
+## Built With
 
-```
-$ yarn build
-```
+- [Docusaurus 3](https://docusaurus.io/) - Documentation framework
+- [React](https://reactjs.org/) - UI framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [MDX](https://mdxjs.com/) - Markdown extensions
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## License
 
-### Deployment
+MIT License - see the [LICENSE](LICENSE) file for details
 
-Using SSH:
+## Contact
 
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- GitHub: [@wizardsupreme](https://github.com/wizardsupreme)
+- Twitter: [@wizardnayeem](https://twitter.com/wizardnayeem)

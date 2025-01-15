@@ -1,14 +1,6 @@
 {
-  "extends": "@docusaurus/tsconfig",
+  "extends": "@tsconfig/docusaurus/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "allowJs": true,
-    "types": [
-      "node",
-      "@docusaurus/module-type-aliases",
-      "@docusaurus/theme-classic"
-    ]
+    "baseUrl": "."
   }
 }

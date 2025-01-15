@@ -1,12 +1,15 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './styles.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  const imageUrl = useBaseUrl('img/icons/brain.png');
+  
   return (
     <header className={styles.heroBanner}>
       <div className="container">
@@ -41,7 +44,7 @@ function HomepageHeader() {
           </div>
           <div className={styles.heroRight}>
             <img
-              src={`${siteConfig.baseUrl}img/icons/brain.png`}
+              src={imageUrl}
               className={styles.heroImage}
               alt="Wizard Supreme Brain"
             />

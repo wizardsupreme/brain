@@ -10,11 +10,25 @@ A collection of frameworks and tools for building AI agents.
 
 | Framework | Self-Hosting | AI Capabilities | Visual Builder | Integrations | Price | Overall Score |
 |-----------|-------------|-----------------|----------------|--------------|--------|---------------|
-| n8n | 10/10 | 8/10 | 9/10 | 9/10 | 9/10 | 9/10 |
-| LangChain | 8/10 | 9/10 | 5/10 | 8/10 | 10/10 | 8/10 |
+| n8n | 10/10 | 8/10 | 9/10 | 9/10 | 9/10 | 9.0/10 |
+| LangChain | 8/10 | 9/10 | 5/10 | 8/10 | 10/10 | 8.2/10 |
 | ElizaOS | 7/10 | 8/10 | 6/10 | 7/10 | 10/10 | 7.6/10 |
-| AutoGPT | 7/10 | 8/10 | 4/10 | 6/10 | 10/10 | 7/10 |
-| Zerepy | 6/10 | 7/10 | 5/10 | 7/10 | 10/10 | 7/10 |
+| AutoGPT | 7/10 | 8/10 | 4/10 | 6/10 | 10/10 | 7.1/10 |
+| Zerepy | 6/10 | 7/10 | 5/10 | 7/10 | 10/10 | 7.0/10 |
+| Haystack | 8/10 | 7/10 | 4/10 | 7/10 | 9/10 | 7.0/10 |
+| Rasa | 9/10 | 7/10 | 6/10 | 6/10 | 7/10 | 7.0/10 |
+
+### Scoring Methodology
+
+Overall scores are calculated using weighted averages across five key dimensions:
+
+- **Self-Hosting**: 25% - Ability to deploy and manage on own infrastructure
+- **AI Capabilities**: 25% - Range and depth of AI features and model support
+- **Visual Builder**: 20% - Quality and usability of visual development tools
+- **Integrations**: 20% - Number and quality of available integrations
+- **Price**: 10% - Cost-effectiveness and pricing model flexibility
+
+Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Builder × 0.20) + (Integrations × 0.20) + (Price × 0.10)
 
 ## n8n
 - **GitHub**: [n8n-io/n8n](https://github.com/n8n-io/n8n)
@@ -29,13 +43,26 @@ A collection of frameworks and tools for building AI agents.
   - Enterprise features (SSO, RBAC)
 - **Deployment Options**:
   ```bash
-  # Docker deployment
+  # Docker deployment with security configurations
   docker run -it --rm \
     --name n8n \
     -p 5678:5678 \
     -v ~/.n8n:/home/node/.n8n \
+    -e N8N_BASIC_AUTH_ACTIVE=true \
+    -e N8N_BASIC_AUTH_USER=admin \
+    -e N8N_BASIC_AUTH_PASSWORD=secure_password \
+    -e NODE_ENV=production \
+    --restart unless-stopped \
+    --network n8n-network \
     docker.n8n.io/n8nio/n8n
   ```
+
+  Key security considerations:
+  - Basic authentication enabled
+  - Production environment
+  - Persistent data storage
+  - Isolated network
+  - Automatic container restart
 - **Pros**:
   - Extensive integration library
   - Visual workflow builder

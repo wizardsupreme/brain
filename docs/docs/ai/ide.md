@@ -19,13 +19,12 @@ AI-enhanced development environments and code editors.
 | Bolt.DIY | 4/10 | 5/10 | 4/10 | 6/10 | 8/10 (Free) | 5/10 |
  
 
-## Score Categories
-- **Performance**: Speed and responsiveness
-- **Refactoring**: Code restructuring capabilities
-- **Logical Operations**: Complex problem-solving abilities
-- **Deployment**: Ease of deployment integration
-- **Price**: Value for money
-- **Overall Score**: Weighted average (Performance: 30%, Refactoring: 20%, Logical Operations: 20%, Deployment: 15%, Price: 15%)
+### Score Categories
+- **Performance** 30%: Speed and responsiveness
+- **Refactoring** 20%: Code restructuring capabilities
+- **Logical Operations** 20%: Complex problem-solving abilities
+- **Deployment** 15%: Ease of deployment integration
+- **Price** 15%: Value for money
 
 ## Cursor
 - **Website**: [cursor.sh](https://cursor.sh)

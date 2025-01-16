@@ -34,6 +34,7 @@ Overall scores are calculated using weighted averages across key dimensions:
 - **CI/CD**: 15% - Development workflow integration
 
 ## Vercel
+- **Website**: [vercel.com](https://vercel.com)
 - **Free Tier Limits**:
   - Unlimited static sites
   - 100GB bandwidth/month
@@ -56,6 +57,7 @@ Overall scores are calculated using weighted averages across key dimensions:
   - Some features Pro-only
 
 ## Replit
+- **Website**: [replit.com](https://replit.com)
 - **Free Tier Limits**:
   - Unlimited public repos
   - Basic compute resources
@@ -77,6 +79,7 @@ Overall scores are calculated using weighted averages across key dimensions:
   - Network limitations
 
 ## Render
+- **Website**: [render.com](https://render.com)
 - **Free Tier Limits**:
   - Static sites
   - Web services
@@ -97,6 +100,7 @@ Overall scores are calculated using weighted averages across key dimensions:
   - Basic analytics
 
 ## GitHub Pages
+- **Website**: [pages.github.com](https://pages.github.com)
 - **Free Tier Limits**:
   - Unlimited static sites
   - 100GB bandwidth/month
@@ -116,22 +120,60 @@ Overall scores are calculated using weighted averages across key dimensions:
   - No server-side code
   - Limited functionality
 
-## Score Level Descriptions
-10: Industry-leading capability
-8-9: Excellent implementation
-6-7: Good functionality
-4-5: Basic capability
-1-3: Limited functionality
+## Railway
+- **Website**: [railway.app](https://railway.app)
+- **Free Tier Limits**:
+  - 12 months free
+  - Always-free services (Lambda, S3)
+  - Pay-as-you-go after
+- **Technologies**:
+  - Lambda functions (1M free invocations)
+  - S3 (5GB storage)
+  - EC2 (750 hours)
+  - SageMaker Studio Lab (free)
+- **AI/ML Focus**:
+  - SageMaker for ML workflows
+  - Bedrock for LLM APIs
+  - CodeWhisperer for coding
+- **Pricing**: Complex, pay-as-you-go
+- **Pros**:
+  - Most comprehensive service ecosystem
+  - Mature deployment tools
+  - Strong enterprise adoption
+  - Extensive documentation
+- **Cons**:
+  - Complex pricing structure
+  - Steeper learning curve
+  - Cost optimization challenges
 
-## Cloud Provider Comparison
-
-| Platform | Free Tier | AI/ML | Enterprise | Developer Tools | Cost Management | Overall |
-|----------|-----------|-------|------------|-----------------|-----------------|----------|
-| AWS | 6/10 | 8/10 | 9/10 | 8/10 | 6/10 | 7.8/10 |
-| GCP | 7/10 | 9/10 | 7/10 | 9/10 | 7/10 | 8.0/10 |
-| Azure | 6/10 | 8/10 | 10/10 | 7/10 | 6/10 | 7.6/10 |
+## Fly.io
+- **Website**: [fly.io](https://fly.io)
+- **Free Tier Limits**:
+  - 12 months free
+  - Always-free services (Lambda, S3)
+  - Pay-as-you-go after
+- **Technologies**:
+  - Lambda functions (1M free invocations)
+  - S3 (5GB storage)
+  - EC2 (750 hours)
+  - SageMaker Studio Lab (free)
+- **AI/ML Focus**:
+  - SageMaker for ML workflows
+  - Bedrock for LLM APIs
+  - CodeWhisperer for coding
+- **Pricing**: Complex, pay-as-you-go
+- **Pros**:
+  - Most comprehensive service ecosystem
+  - Mature deployment tools
+  - Strong enterprise adoption
+  - Extensive documentation
+- **Cons**:
+  - Complex pricing structure
+  - Steeper learning curve
+  - Cost optimization challenges
 
 ## AWS (Free Tier)
+- **Website**: [aws.amazon.com/free](https://aws.amazon.com/free)
 - **Free Tier Limits**:
   - 12 months free
   - Always-free services (Lambda, S3)
@@ -157,6 +199,7 @@ Overall scores are calculated using weighted averages across key dimensions:
   - Cost optimization challenges
 
 ## GCP (Free Tier)
+- **Website**: [cloud.google.com/free](https://cloud.google.com/free)
 - **Free Tier Limits**:
   - $300 credit (90 days)
   - Always-free tier
@@ -182,6 +225,7 @@ Overall scores are calculated using weighted averages across key dimensions:
   - Limited enterprise tools
 
 ## Azure (Free Tier)
+- **Website**: [azure.microsoft.com/free](https://azure.microsoft.com/free)
 - **Free Tier Limits**:
   - $200 credit (30 days)
   - 12-month free services

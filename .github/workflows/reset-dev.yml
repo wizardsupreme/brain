@@ -1,0 +1,28 @@
+name: Reset Dev Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  reset-dev:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          # Fetch all branches
+          fetch-depth: 0
+
+      - name: Set Up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Reset dev to match main
+        run: |
+          git checkout dev
+          git reset --hard main
+          git push origin dev --force

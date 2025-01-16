@@ -21,9 +21,9 @@ Comparison of hosting platforms for AI and web applications.
 | Heroku | 7/10 | 6/10 | 8/10 | 8/10 | 8/10 | 9/10 | 7.6/10 |
 | DigitalOcean | 8/10 | 7/10 | 8/10 | 9/10 | 8/10 | 8/10 | 8.0/10 |
 | Fly.io | 7/10 | 6/10 | 7/10 | 9/10 | 8/10 | 7/10 | 7.3/10 |
-| AWS (Free Tier) | 6/10 | 9/10 | 7/10 | 9/10 | 9/10 | 8/10 | 8.0/10 |
-| GCP (Free Tier) | 6/10 | 9/10 | 7/10 | 9/10 | 9/10 | 8/10 | 8.0/10 |
-| Azure (Free Tier) | 6/10 | 9/10 | 7/10 | 9/10 | 9/10 | 8/10 | 8.0/10 |
+| AWS | 6/10 | 9/10 | 7/10 | 9/10 | 9/10 | 8/10 | 8.0/10 |
+| GCP | 6/10 | 9/10 | 7/10 | 9/10 | 9/10 | 8/10 | 8.0/10 |
+| Azure | 6/10 | 9/10 | 7/10 | 9/10 | 9/10 | 8/10 | 8.0/10 |
 | Alibaba Cloud | 6/10 | 9/10 | 7/10 | 9/10 | 9/10 | 8/10 | 8.0/10 |
 | Cloudflare Pages | 9/10 | 7/10 | 10/10 | 8/10 | 9/10 | 9/10 | 8.8/10 |
 | Oracle Cloud | 10/10 | 8/10 | 7/10 | 9/10 | 8/10 | 7/10 | 8.5/10 |
@@ -31,7 +31,7 @@ Comparison of hosting platforms for AI and web applications.
 | IBM Cloud | 7/10 | 9/10 | 7/10 | 9/10 | 8/10 | 7/10 | 7.8/10 |
 | Vultr | 8/10 | 6/10 | 7/10 | 9/10 | 7/10 | 7/10 | 7.3/10 |
 
-### Scoring Methodology
+## Scoring Methodology
 
 Overall scores are calculated using weighted averages across key dimensions:
 
@@ -48,8 +48,10 @@ JAMstack is a modern web architecture based on:
 - **Markdown**: Static content
 This architecture pre-builds pages for better performance and security.
 
-## Vercel
+### Vercel
 - **Website**: [vercel.com](https://vercel.com)
+- **Pricing**: [vercel.com/pricing](https://vercel.com/pricing)
+- **API**: [vercel.com/docs/api](https://vercel.com/docs/api)
 - **Free Tier Limits**:
   - Unlimited static sites
   - 100GB bandwidth/month
@@ -71,8 +73,10 @@ This architecture pre-builds pages for better performance and security.
   - Region restrictions on free tier
   - Some features Pro-only
 
-## Netlify
+### Netlify
 - **Website**: [netlify.com](https://netlify.com)
+- **Pricing**: [netlify.com/pricing](https://netlify.com/pricing)
+- **API**: [docs.netlify.com/api/get-started](https://docs.netlify.com/api/get-started)
 - **Free Tier Limits**:
   - Unlimited static sites
   - 100GB bandwidth/month
@@ -94,8 +98,10 @@ This architecture pre-builds pages for better performance and security.
   - Region restrictions on free tier
   - Some features Pro-only
 
-## GitHub Pages
+### GitHub Pages
 - **Website**: [pages.github.com](https://pages.github.com)
+- **Pricing**: [github.com/pricing](https://github.com/pricing)
+- **API**: Not available
 - **Free Tier Limits**:
   - Unlimited static sites
   - 100GB bandwidth/month
@@ -115,8 +121,10 @@ This architecture pre-builds pages for better performance and security.
   - No server-side code
   - Limited functionality
 
-## Cloudflare Pages
+### Cloudflare Pages
 - **Website**: [pages.cloudflare.com](https://pages.cloudflare.com)
+- **Pricing**: [cloudflare.com/pricing](https://cloudflare.com/pricing)
+- **API**: [developers.cloudflare.com/api](https://developers.cloudflare.com/api)
 - **Free Tier Limits**:
   - Unlimited sites and requests
   - 500 builds per month
@@ -143,9 +151,10 @@ This architecture pre-builds pages for better performance and security.
   - Workers have memory limits
   - New AI platform
 
-## Platform as a Service (PaaS)
+## Full Stack Hosting Providers
+Full stack platforms supporting multiple languages and frameworks (Python, Ruby, Node.js, etc.) with built-in deployment and scaling capabilities.
 
-## Replit
+### Replit
 - **Website**: [replit.com](https://replit.com)
 - **Free Tier Limits**:
   - Unlimited public repos
@@ -167,9 +176,84 @@ This architecture pre-builds pages for better performance and security.
   - Resource constraints
   - Network limitations
 
-## Infrastructure as a Service (IaaS)
+### Railway
+- **Website**: [railway.app](https://railway.app)
+- **Free Tier Limits**:
+  - $5 credit monthly
+  - 512MB RAM, shared CPU
+  - 1GB disk space
+- **Technologies**:
+  - Docker support
+  - Node.js, Python, Go, Ruby
+  - PostgreSQL, Redis, MongoDB
+  - GitHub integration
+- **AI/ML Focus**:
+  - Container-based ML deployments
+  - GPU support (paid plans)
+  - Custom runtime environments
+- **Pricing**: Usage-based, starts at $5/month
+- **Pros**:
+  - Simple deployment process
+  - GitHub integration
+  - Good developer experience
+  - Modern dashboard
+- **Cons**:
+  - Limited free tier
+  - Usage-based billing can be unpredictable
+  - Basic monitoring tools
+  - Limited regions
 
-## DigitalOcean
+### Render
+- **Website**: [render.com](https://render.com)
+- **Free Tier Limits**:
+  - Unlimited deployments
+  - 100GB bandwidth/month
+  - Serverless functions
+  - Edge functions
+- **Technologies**:
+  - Next.js (optimized)
+  - React, Vue, Nuxt, Svelte
+  - Edge middleware
+  - Vercel AI SDK
+- **Pricing**: From free to $20/month (Pro)
+- **Pros**:
+  - Excellent DX (Developer Experience)
+  - Edge network
+  - AI-optimized deployments
+  - GitHub integration
+- **Cons**:
+  - Limited build minutes
+  - Region restrictions on free tier
+  - Some features Pro-only
+
+### Heroku
+- **Website**: [heroku.com](https://heroku.com)
+- **Free Tier Limits**:
+  - No longer offers free tier (as of 2022)
+  - Starter plan from $5/month
+  - Eco-dynos for cost optimization
+- **Technologies**:
+  - Node.js, Python, Ruby, Java
+  - PostgreSQL, Redis
+  - Add-ons marketplace
+  - GitHub integration
+- **AI/ML Focus**:
+  - ML model deployment
+  - Add-ons for AI services
+  - Data science buildpacks
+- **Pricing**: Usage-based with dyno hours
+- **Pros**:
+  - Simple deployment workflow
+  - Excellent developer experience
+  - Rich add-ons ecosystem
+  - Strong PostgreSQL integration
+- **Cons**:
+  - No free tier anymore
+  - Higher costs at scale
+  - Limited infrastructure control
+  - Regional restrictions
+
+### DigitalOcean
 - **Website**: [digitalocean.com](https://digitalocean.com)
 - **Free Tier Limits**:
   - $200 credit for 60 days
@@ -197,10 +281,90 @@ This architecture pre-builds pages for better performance and security.
   - Basic managed services
   - Limited enterprise features
 
-## Cloud Providers
+### Fly.io
+- **Website**: [fly.io](https://fly.io)
+- **Free Tier Limits**:
+  - Unlimited deployments
+  - 100GB bandwidth/month
+  - Serverless functions
+  - Edge functions
+- **Technologies**:
+  - Next.js (optimized)
+  - React, Vue, Nuxt, Svelte
+  - Edge middleware
+  - Vercel AI SDK
+- **Pricing**: From free to $20/month (Pro)
+- **Pros**:
+  - Excellent DX (Developer Experience)
+  - Edge network
+  - AI-optimized deployments
+  - GitHub integration
+- **Cons**:
+  - Limited build minutes
+  - Region restrictions on free tier
+  - Some features Pro-only
 
-## AWS (Free Tier)
+### Linode
+- **Website**: [linode.com](https://linode.com)
+- **Free Tier Limits**:
+  - $50 credit for 30 days
+  - Always-free services
+  - Pay-as-you-go options
+- **Technologies**:
+  - Droplets (VMs)
+  - App Platform (PaaS)
+  - Kubernetes (DOKS)
+  - Managed Databases
+- **AI/ML Focus**:
+  - AI-ready compute optimized droplets
+  - ML deployment templates
+  - GPU instances
+  - AI marketplace apps
+- **Pricing**: Simple, predictable pricing
+- **Pros**:
+  - Straightforward pricing
+  - Excellent documentation
+  - Strong community
+  - Simple UI/UX
+- **Cons**:
+  - Limited AI-specific services
+  - Fewer global regions than major clouds
+  - Basic managed services
+  - Limited enterprise features
+
+### Vultr
+- **Website**: [vultr.com](https://vultr.com)
+- **Free Tier Limits**:
+  - $100 credit for 30 days
+  - Pay-as-you-go after
+- **Technologies**:
+  - Cloud compute
+  - Bare metal
+  - Kubernetes
+  - Block storage
+- **AI/ML Focus**:
+  - GPU instances
+  - High performance compute
+  - AI infrastructure
+- **Pricing**: Simple hourly billing
+- **Pros**:
+  - Simple pricing
+  - Good performance
+  - Global locations
+  - Easy to use
+- **Cons**:
+  - No free tier
+  - Basic features
+  - Limited managed services
+  - Basic support 
+
+## Cloud Providers
+Enterprise-grade cloud platforms offering comprehensive services including compute, storage, AI/ML, and managed services.
+
+### AWS
 - **Website**: [aws.amazon.com/free](https://aws.amazon.com/free)
+- **Pricing**: [aws.amazon.com/pricing](https://aws.amazon.com/pricing)
+- **API**: [docs.aws.amazon.com/apis](https://docs.aws.amazon.com/apis)
 - **Free Tier Limits**:
   - 12 months free
   - Always-free services (Lambda, S3)
@@ -225,8 +389,10 @@ This architecture pre-builds pages for better performance and security.
   - Steeper learning curve
   - Cost optimization challenges
 
-## GCP (Free Tier)
+### GCP
 - **Website**: [cloud.google.com/free](https://cloud.google.com/free)
+- **Pricing**: [cloud.google.com/pricing](https://cloud.google.com/pricing)
+- **API**: [cloud.google.com/apis](https://cloud.google.com/apis)
 - **Free Tier Limits**:
   - $300 credit (90 days)
   - Always-free tier
@@ -251,8 +417,10 @@ This architecture pre-builds pages for better performance and security.
   - Regional pricing variation
   - Limited enterprise tools
 
-## Azure (Free Tier)
+### Azure
 - **Website**: [azure.microsoft.com/free](https://azure.microsoft.com/free)
+- **Pricing**: [azure.microsoft.com/pricing](https://azure.microsoft.com/pricing)
+- **API Available**: Yes - [learn.microsoft.com/azure/developer/apis](https://learn.microsoft.com/azure/developer/apis)
 - **Free Tier Limits**:
   - $200 credit (30 days)
   - 12-month free services
@@ -275,9 +443,9 @@ This architecture pre-builds pages for better performance and security.
 - **Cons**:
   - Complex administration
   - Windows-centric
-  - Higher learning curve 
+  - Higher learning curve
 
-## Alibaba Cloud
+### Alibaba Cloud
 - **Website**: [alibabacloud.com/free](https://www.alibabacloud.com/free)
 - **Free Tier Limits**:
   - $450-$1,200 in credits for new users
@@ -303,57 +471,62 @@ This architecture pre-builds pages for better performance and security.
   - Limited global presence compared to AWS/GCP
   - Higher latency outside Asia
   - English documentation can lag behind Chinese
-  - Complex billing system 
+  - Complex billing system
 
-## Heroku
-- **Website**: [heroku.com](https://heroku.com)
+### Oracle Cloud
+- **Website**: [oracle.com/cloud/free](https://oracle.com/cloud/free)
 - **Free Tier Limits**:
-  - No longer offers free tier (as of 2022)
-  - Starter plan from $5/month
-  - Eco-dynos for cost optimization
+  - Always Free ARM compute (4 cores, 24GB RAM)
+  - 200GB block storage
+  - Load balancer and monitoring
+  - Outbound data transfer (10TB/month)
 - **Technologies**:
-  - Node.js, Python, Ruby, Java
-  - PostgreSQL, Redis
-  - Add-ons marketplace
-  - GitHub integration
-- **AI/ML Focus**:
-  - ML model deployment
-  - Add-ons for AI services
-  - Data science buildpacks
-- **Pricing**: Usage-based with dyno hours
-- **Pros**:
-  - Simple deployment workflow
-  - Excellent developer experience
-  - Rich add-ons ecosystem
-  - Strong PostgreSQL integration
-- **Cons**:
-  - No free tier anymore
-  - Higher costs at scale
-  - Limited infrastructure control
-  - Regional restrictions
-
-## Vultr
-- **Website**: [vultr.com](https://vultr.com)
-- **Free Tier Limits**:
-  - $100 credit for 30 days
-  - Pay-as-you-go after
-- **Technologies**:
-  - Cloud compute
-  - Bare metal
-  - Kubernetes
-  - Block storage
+  - OCI Compute
+  - Container Engine
+  - Functions
+  - Database services
 - **AI/ML Focus**:
   - GPU instances
-  - High performance compute
-  - AI infrastructure
-- **Pricing**: Simple hourly billing
+  - OCI Data Science
+  - AI Infrastructure
+  - Language AI services
+- **Pricing**: Most generous always-free tier
 - **Pros**:
-  - Simple pricing
-  - Good performance
-  - Global locations
-  - Easy to use
+  - Best free tier in industry
+  - Enterprise-grade infrastructure
+  - Global presence
+  - Strong performance
 - **Cons**:
-  - No free tier
-  - Basic features
-  - Limited managed services
-  - Basic support 
+  - Complex interface
+  - Limited marketplace
+  - Fewer modern services
+  - Documentation gaps
+
+### IBM Cloud
+- **Website**: [ibm.com/cloud](https://www.ibm.com/cloud)
+- **Free Tier Limits**:
+  - 256MB Cloud Functions
+  - Lite Kubernetes cluster
+  - Watson AI services
+  - Object storage
+- **Technologies**:
+  - Cloud Foundry
+  - Kubernetes
+  - OpenShift
+  - Watson AI
+- **AI/ML Focus**:
+  - Watson AI suite
+  - ML operations
+  - AI governance
+  - Natural language services
+- **Pricing**: Pay-as-you-go with credits
+- **Pros**:
+  - Strong AI/ML tools
+  - Enterprise focus
+  - Global presence
+  - Good support
+- **Cons**:
+  - Complex interface
+  - Enterprise pricing
+  - Steep learning curve
+  - Limited free tier 

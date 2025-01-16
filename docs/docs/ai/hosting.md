@@ -31,7 +31,7 @@ Comparison of hosting platforms for AI and web applications.
 | IBM Cloud | 7/10 | 9/10 | 7/10 | 9/10 | 8/10 | 7/10 | 7.8/10 |
 | Vultr | 8/10 | 6/10 | 7/10 | 9/10 | 7/10 | 7/10 | 7.3/10 |
 
-## Scoring Methodology
+### Scoring Categories
 
 Overall scores are calculated using weighted averages across key dimensions:
 

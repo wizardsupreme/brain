@@ -20,7 +20,7 @@ A collection of frameworks and tools for building AI agents.
 | Haystack | 8/10 | 7/10 | 4/10 | 7/10 | 9/10 | 7.0/10 |
 | Rasa | 9/10 | 7/10 | 6/10 | 6/10 | 7/10 | 7.0/10 |
 
-### Scoring Methodology
+### Scoring Categories
 
 Overall scores are calculated using weighted averages across five key dimensions:
 

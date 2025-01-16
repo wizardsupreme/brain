@@ -19,7 +19,7 @@ AI-enhanced development environments and code editors.
 | Bolt.DIY | 4/10 | 5/10 | 4/10 | 6/10 | 8/10 (Free) | 5/10 |
  
 
-## Score Categories
+### Score Categories
 - **Performance**: Speed and responsiveness
 - **Refactoring**: Code restructuring capabilities
 - **Logical Operations**: Complex problem-solving abilities

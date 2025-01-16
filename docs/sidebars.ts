@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
         'ai/models',
         'ai/agents',
         'ai/ide',
+        'ai/hosting',
       ],
     },
     {

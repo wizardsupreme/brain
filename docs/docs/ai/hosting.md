@@ -156,6 +156,8 @@ Full stack platforms supporting multiple languages and frameworks (Python, Ruby,
 
 ### Replit
 - **Website**: [replit.com](https://replit.com)
+- **Pricing**: [replit.com/pricing](https://replit.com/pricing)
+- **API**: [docs.replit.com/api](https://docs.replit.com/api)
 - **Free Tier Limits**:
   - Unlimited public repos
   - Basic compute resources
@@ -178,6 +180,8 @@ Full stack platforms supporting multiple languages and frameworks (Python, Ruby,
 
 ### Railway
 - **Website**: [railway.app](https://railway.app)
+- **Pricing**: [railway.app/pricing](https://railway.app/pricing)
+- **API**: [docs.railway.app/reference/public-api](https://docs.railway.app/reference/public-api)
 - **Free Tier Limits**:
   - $5 credit monthly
   - 512MB RAM, shared CPU
@@ -205,6 +209,8 @@ Full stack platforms supporting multiple languages and frameworks (Python, Ruby,
 
 ### Render
 - **Website**: [render.com](https://render.com)
+- **Pricing**: [render.com/pricing](https://render.com/pricing)
+- **API**: [render.com/docs/api](https://render.com/docs/api)
 - **Free Tier Limits**:
   - Unlimited deployments
   - 100GB bandwidth/month
@@ -228,6 +234,8 @@ Full stack platforms supporting multiple languages and frameworks (Python, Ruby,
 
 ### Heroku
 - **Website**: [heroku.com](https://heroku.com)
+- **Pricing**: [heroku.com/pricing](https://heroku.com/pricing)
+- **API**: [devcenter.heroku.com/articles/platform-api-reference](https://devcenter.heroku.com/articles/platform-api-reference)
 - **Free Tier Limits**:
   - No longer offers free tier (as of 2022)
   - Starter plan from $5/month
@@ -255,6 +263,8 @@ Full stack platforms supporting multiple languages and frameworks (Python, Ruby,
 
 ### DigitalOcean
 - **Website**: [digitalocean.com](https://digitalocean.com)
+- **Pricing**: [digitalocean.com/pricing](https://digitalocean.com/pricing)
+- **API**: [docs.digitalocean.com/reference/api](https://docs.digitalocean.com/reference/api)
 - **Free Tier Limits**:
   - $200 credit for 60 days
   - Always-free services
@@ -283,6 +293,8 @@ Full stack platforms supporting multiple languages and frameworks (Python, Ruby,
 
 ### Fly.io
 - **Website**: [fly.io](https://fly.io)
+- **Pricing**: [fly.io/pricing](https://fly.io/pricing)
+- **API**: [fly.io/docs/reference/api](https://fly.io/docs/reference/api)
 - **Free Tier Limits**:
   - Unlimited deployments
   - 100GB bandwidth/month
@@ -306,6 +318,8 @@ Full stack platforms supporting multiple languages and frameworks (Python, Ruby,
 
 ### Linode
 - **Website**: [linode.com](https://linode.com)
+- **Pricing**: [linode.com/pricing](https://linode.com/pricing)
+- **API**: [linode.com/docs/api](https://linode.com/docs/api)
 - **Free Tier Limits**:
   - $50 credit for 30 days
   - Always-free services
@@ -334,6 +348,8 @@ Full stack platforms supporting multiple languages and frameworks (Python, Ruby,
 
 ### Vultr
 - **Website**: [vultr.com](https://vultr.com)
+- **Pricing**: [vultr.com/pricing](https://vultr.com/pricing)
+- **API**: [vultr.com/api](https://vultr.com/api)
 - **Free Tier Limits**:
   - $100 credit for 30 days
   - Pay-as-you-go after
@@ -447,6 +463,8 @@ Enterprise-grade cloud platforms offering comprehensive services including compu
 
 ### Alibaba Cloud
 - **Website**: [alibabacloud.com/free](https://www.alibabacloud.com/free)
+- **Pricing**: [alibabacloud.com/pricing](https://www.alibabacloud.com/pricing)
+- **API**: [alibabacloud.com/api](https://www.alibabacloud.com/api)
 - **Free Tier Limits**:
   - $450-$1,200 in credits for new users
   - 12 months free for selected services
@@ -475,6 +493,8 @@ Enterprise-grade cloud platforms offering comprehensive services including compu
 
 ### Oracle Cloud
 - **Website**: [oracle.com/cloud/free](https://oracle.com/cloud/free)
+- **Pricing**: [oracle.com/cloud/pricing](https://oracle.com/cloud/pricing)
+- **API**: [docs.oracle.com/en-us/iaas/api](https://docs.oracle.com/en-us/iaas/api)
 - **Free Tier Limits**:
   - Always Free ARM compute (4 cores, 24GB RAM)
   - 200GB block storage
@@ -504,6 +524,8 @@ Enterprise-grade cloud platforms offering comprehensive services including compu
 
 ### IBM Cloud
 - **Website**: [ibm.com/cloud](https://www.ibm.com/cloud)
+- **Pricing**: [ibm.com/cloud/pricing](https://www.ibm.com/cloud/pricing)
+- **API**: [cloud.ibm.com/apidocs](https://cloud.ibm.com/apidocs)
 - **Free Tier Limits**:
   - 256MB Cloud Functions
   - Lite Kubernetes cluster

@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # AI Agents
 
+> Last Updated: 2025-01-16
+
 A collection of frameworks and tools for building AI agents.
 
 ## Comparison Matrix

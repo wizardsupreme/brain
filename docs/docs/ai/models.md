@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # AI Models
 
+> Last Updated: 2025-01-16
+
 Overview of prominent AI language models and their capabilities.
 
 ## ChatGPT

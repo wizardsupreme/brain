@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # Hosting Platforms
 
+> Last Updated: March 2024
+
 Comparison of hosting platforms for AI and web applications.
 
 ## Comparison Matrix
@@ -114,65 +116,92 @@ Overall scores are calculated using weighted averages across key dimensions:
   - No server-side code
   - Limited functionality
 
+## Score Level Descriptions
+10: Industry-leading capability
+8-9: Excellent implementation
+6-7: Good functionality
+4-5: Basic capability
+1-3: Limited functionality
+
+## Cloud Provider Comparison
+
+| Platform | Free Tier | AI/ML | Enterprise | Developer Tools | Cost Management | Overall |
+|----------|-----------|-------|------------|-----------------|-----------------|----------|
+| AWS | 6/10 | 8/10 | 9/10 | 8/10 | 6/10 | 7.8/10 |
+| GCP | 7/10 | 9/10 | 7/10 | 9/10 | 7/10 | 8.0/10 |
+| Azure | 6/10 | 8/10 | 10/10 | 7/10 | 6/10 | 7.6/10 |
+
 ## AWS (Free Tier)
 - **Free Tier Limits**:
   - 12 months free
-  - Various service limits
+  - Always-free services (Lambda, S3)
   - Pay-as-you-go after
 - **Technologies**:
-  - Lambda functions
-  - S3, EC2, RDS
-  - SageMaker
-  - Comprehensive services
+  - Lambda functions (1M free invocations)
+  - S3 (5GB storage)
+  - EC2 (750 hours)
+  - SageMaker Studio Lab (free)
+- **AI/ML Focus**:
+  - SageMaker for ML workflows
+  - Bedrock for LLM APIs
+  - CodeWhisperer for coding
 - **Pricing**: Complex, pay-as-you-go
 - **Pros**:
-  - Comprehensive services
-  - AI/ML capabilities
-  - Global infrastructure
-  - Enterprise-grade
+  - Most comprehensive service ecosystem
+  - Mature deployment tools
+  - Strong enterprise adoption
+  - Extensive documentation
 - **Cons**:
-  - Complex setup
-  - Cost management
-  - Learning curve
+  - Complex pricing structure
+  - Steeper learning curve
+  - Cost optimization challenges
 
 ## GCP (Free Tier)
 - **Free Tier Limits**:
   - $300 credit (90 days)
   - Always-free tier
-  - Selected services
+  - Per-service limits
 - **Technologies**:
-  - Cloud Run
-  - App Engine
+  - Cloud Run (2M requests)
+  - Cloud Functions
   - Vertex AI
-  - Firebase
-- **Pricing**: Pay-as-you-go
+  - BigQuery (1TB queries)
+- **AI/ML Focus**:
+  - Vertex AI for ML ops
+  - PaLM API for LLMs
+  - Colab Pro integration
+- **Pricing**: Usage-based, simpler than AWS
 - **Pros**:
-  - Strong AI/ML focus
-  - Firebase integration
-  - Good free tier
-  - Global network
+  - Best-in-class ML tools
+  - Strong data analytics
+  - Simple deployment
+  - Good documentation
 - **Cons**:
-  - Complex pricing
-  - Setup complexity
-  - Limited free services
+  - Fewer services than AWS
+  - Regional pricing variation
+  - Limited enterprise tools
 
 ## Azure (Free Tier)
 - **Free Tier Limits**:
   - $200 credit (30 days)
-  - Always-free services
   - 12-month free services
+  - Always-free options
 - **Technologies**:
   - Azure Functions
   - App Service
-  - Azure OpenAI
-  - Static Web Apps
-- **Pricing**: Pay-as-you-go
+  - Azure OpenAI Service
+  - Cognitive Services
+- **AI/ML Focus**:
+  - Azure OpenAI integration
+  - Cognitive Services suite
+  - ML Studio
+- **Pricing**: Enterprise-focused
 - **Pros**:
-  - Strong AI integration
-  - Enterprise features
-  - .NET optimization
-  - Good free tier
+  - Best Microsoft integration
+  - Strong enterprise features
+  - Advanced security
+  - Hybrid cloud support
 - **Cons**:
-  - Complex interface
-  - Cost management
-  - Learning curve 
+  - Complex administration
+  - Windows-centric
+  - Higher learning curve 

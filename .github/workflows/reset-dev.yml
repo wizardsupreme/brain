@@ -13,7 +13,6 @@ jobs:
   reset-dev:
     permissions:
       contents: write
-      pull-requests: write
     runs-on: ubuntu-latest
 
     steps:
@@ -30,6 +29,28 @@ jobs:
 
       - name: Reset dev to match main
         run: |
-          git checkout dev
-          git reset --hard main
-          git push origin dev --force
+            # Check if dev branch exists
+            if ! git show-ref --verify --quiet refs/remotes/origin/dev; then
+              echo "Creating dev branch from main..."
+              git checkout -b dev
+            else
+              echo "Checking out existing dev branch..."
+              git checkout dev
+            fi
+
+            # Store the current main commit hash
+            MAIN_HASH=$(git rev-parse main)
+            
+            # Perform the reset
+            git checkout dev
+            git reset --hard main
+            
+            # Force push with lease to prevent accidental overwrites of concurrent pushes
+            git push origin dev --force-with-lease
+            
+            # Verify the reset
+            DEV_HASH=$(git rev-parse origin/dev)
+            if [ "$MAIN_HASH" != "$DEV_HASH" ]; then
+              echo "Reset verification failed! Dev branch is not in sync with main"
+              exit 1
+            fi

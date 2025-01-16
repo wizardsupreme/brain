@@ -1,0 +1,56 @@
+name: Reset Dev Branch
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  reset-dev:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch all branches
+          fetch-depth: 0
+
+      - name: Set Up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Reset dev to match main
+        run: |
+            # Check if dev branch exists
+            if ! git show-ref --verify --quiet refs/remotes/origin/dev; then
+              echo "Creating dev branch from main..."
+              git checkout -b dev
+            else
+              echo "Checking out existing dev branch..."
+              git checkout dev
+            fi
+
+            # Store the current main commit hash
+            MAIN_HASH=$(git rev-parse main)
+            
+            # Perform the reset
+            git checkout dev
+            git reset --hard main
+            
+            # Force push with lease to prevent accidental overwrites of concurrent pushes
+            git push origin dev --force-with-lease
+            
+            # Verify the reset
+            DEV_HASH=$(git rev-parse origin/dev)
+            if [ "$MAIN_HASH" != "$DEV_HASH" ]; then
+              echo "Reset verification failed! Dev branch is not in sync with main"
+              exit 1
+            fi

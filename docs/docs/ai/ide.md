@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # AI IDEs
 
+> Last Updated: 2025-01-16
+
 AI-enhanced development environments and code editors.
 
 ## Comparison Matrix

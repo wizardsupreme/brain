@@ -60,6 +60,32 @@ Collection of specialized AI tools for content creation, voice synthesis, and vi
   - Regional restrictions
   - No mobile app
 
+### Cassidy.ai
+- **Website**: [cassidy.ai](https://cassidy.ai)
+- **Pricing**: [cassidy.ai/pricing](https://cassidy.ai/pricing)
+- **API**: Not available
+- **Features**:
+  - AI writing assistant
+  - Content optimization
+  - SEO suggestions
+  - Brand voice matching
+  - Real-time collaboration
+- **Pricing Tiers**:
+  - Free: Limited access
+  - Pro: $29/month
+  - Team: $99/month
+  - Enterprise: Custom
+- **Pros**:
+  - Intuitive interface
+  - Brand voice consistency
+  - Team collaboration
+  - Quality content output
+- **Cons**:
+  - Limited free tier
+  - No API access
+  - Learning curve for brand voice
+  - Processing delays
+
 ## Voice Generation
 
 ### ElevenLabs
@@ -239,4 +265,33 @@ Collection of specialized AI tools for content creation, voice synthesis, and vi
   - Limited customization
   - Some features pro-only
   - Export limitations
-  - Internet required 
+  - Internet required
+
+## Automation Tools
+
+### n8n
+- **Website**: [n8n.io](https://n8n.io)
+- **Pricing**: [n8n.io/pricing](https://n8n.io/pricing)
+- **API**: [docs.n8n.io/api](https://docs.n8n.io/api)
+- **Features**:
+  - Visual AI agent builder
+  - 400+ integrations
+  - Code nodes (JavaScript/Python)
+  - Self-hosting option
+  - Workflow automation
+- **Pricing Tiers**:
+  - Free: Self-hosted
+  - Starter: $20/month
+  - Pro: $45/month
+  - Enterprise: Custom
+- **Pros**:
+  - Visual workflow builder
+  - Extensive integration library
+  - Code flexibility
+  - Self-hosting available
+  - Active community
+- **Cons**:
+  - Learning curve for complex flows
+  - Resource intensive for self-hosting
+  - Some features enterprise-only
+  - Limited free cloud option 

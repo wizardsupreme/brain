@@ -112,4 +112,131 @@ Collection of specialized AI tools for content creation, voice synthesis, and vi
   - No free tier
   - Higher cost
   - Limited editing
-  - Processing queues 
+  - Processing queues
+
+### Descript
+- **Website**: [descript.com](https://descript.com)
+- **Pricing**: [descript.com/pricing](https://descript.com/pricing)
+- **API**: [descript.com/developers](https://descript.com/developers)
+- **Features**:
+  - Text-based video editing
+  - Overdub voice correction
+  - Filler word removal
+  - Transcription
+- **Pricing Tiers**:
+  - Free: Basic features
+  - Creator: $15/month
+  - Pro: $30/month
+  - Enterprise: Custom
+- **Pros**:
+  - Revolutionary editing approach
+  - Time-saving corrections
+  - High-quality audio tools
+  - Easy learning curve
+- **Cons**:
+  - Resource intensive
+  - Limited free tier
+  - Some accent limitations
+  - Processing time
+
+### CapCut
+- **Website**: [capcut.com](https://capcut.com)
+- **Pricing**: [capcut.com/pricing](https://capcut.com/pricing)
+- **API**: Not available
+- **Features**:
+  - AI-powered editing
+  - Templates
+  - Effects library
+  - Multi-platform support
+- **Pricing Tiers**:
+  - Free: Basic features
+  - Pro: $7.99/month
+  - Team: Custom pricing
+- **Pros**:
+  - User-friendly interface
+  - Rich template library
+  - Mobile and desktop apps
+  - Regular updates
+- **Cons**:
+  - Watermark on free tier
+  - Limited export options
+  - Some features mobile-only
+  - Storage limitations
+
+### Opus Clip
+- **Website**: [opus.clip](https://opus.clip)
+- **Pricing**: [opus.clip/pricing](https://opus.clip/pricing)
+- **API**: Not available
+- **Features**:
+  - Auto-clip generation
+  - Content repurposing
+  - Highlight detection
+  - Batch processing
+- **Pricing Tiers**:
+  - Basic: $29/month
+  - Pro: $49/month
+  - Business: $99/month
+- **Pros**:
+  - Automated workflow
+  - Time-saving
+  - Good clip selection
+  - Multiple formats
+- **Cons**:
+  - No free tier
+  - Processing limitations
+  - Limited customization
+  - Learning curve
+
+## Image Generation
+
+### Midjourney
+- **Website**: [midjourney.com](https://midjourney.com)
+- **Pricing**: [midjourney.com/pricing](https://midjourney.com/pricing)
+- **API**: Discord bot interface
+- **Features**:
+  - AI image generation
+  - Style customization
+  - High resolution output
+  - Discord integration
+- **Pricing Tiers**:
+  - Basic: $10/month
+  - Standard: $30/month
+  - Pro: $60/month
+  - Mega: $120/month
+- **Pros**:
+  - High-quality output
+  - Active community
+  - Unique art style
+  - Regular updates
+- **Cons**:
+  - Discord-only interface
+  - No free tier
+  - Queue times
+  - Learning curve
+
+## Presentation Tools
+
+### Beautiful.ai
+- **Website**: [beautiful.ai](https://beautiful.ai)
+- **Pricing**: [beautiful.ai/pricing](https://beautiful.ai/pricing)
+- **API**: Not available
+- **Features**:
+  - AI-powered design
+  - Smart templates
+  - Auto-formatting
+  - Team collaboration
+- **Pricing Tiers**:
+  - Free: Basic features
+  - Pro: $12/month
+  - Team: $40/user/month
+  - Enterprise: Custom
+- **Pros**:
+  - Professional templates
+  - Smart formatting
+  - Easy to use
+  - Real-time collaboration
+- **Cons**:
+  - Limited customization
+  - Some features pro-only
+  - Export limitations
+  - Internet required 

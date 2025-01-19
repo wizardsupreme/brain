@@ -4,10 +4,27 @@
     "AAIG",
     "babyagi",
     "deepset",
+    "flowise",
+    "flowiseai",
+    "frontmatter",
+    "huggingface",
+    "inpainting",
+    "outpainting",
     "langchain",
     "openai",
     "Rasa",
     "Zerepy",
+
+    // AI Models & UIs
+    "BERT",
+    "CodeLlama",
+    "ComfyUI",
+    "ControlNet",
+    "DreamStudio",
+    "InvokeAI",
+    "Mistral",
+    "RunwayML",
+    "Whisper",
 
     // Development Tools & IDEs
     "blorm",

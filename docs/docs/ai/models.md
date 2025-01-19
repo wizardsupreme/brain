@@ -11,7 +11,7 @@ keywords: [AI, machine learning, GPT-4, Claude, Gemini, LLM]
 
 Overview of prominent AI language models and their capabilities.
 
-## General Models
+## LLMs
 
 ### ChatGPT
 - **Provider**: OpenAI
@@ -70,7 +70,7 @@ Overview of prominent AI language models and their capabilities.
   - Smart summarization
   - Research assistance 
 
-## AI Image Models
+## Image Generation
 
 ### DALL-E 3
 - **Provider**: OpenAI
@@ -85,6 +85,37 @@ Overview of prominent AI language models and their capabilities.
   - Pay-per-generation
   - 1024×1024: $0.040/image
   - 1024×1792: $0.080/image
+
+### Stable Diffusion
+- **Provider**: Stability AI
+- **Website**: [stability.ai](https://stability.ai)
+- **GitHub**: [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)
+- **API**: [platform.stability.ai](https://platform.stability.ai)
+- **Deployment**: <span class="hybrid">Cloud & Self-hosted</span>
+- **Key Features**:
+  - Text-to-image generation
+  - Image-to-image editing
+  - Inpainting and outpainting
+  - Multiple model versions (XL, 2.1, 3)
+  - ControlNet support
+  - Custom model training
+  - Open source
+- **Pricing**:
+  - Self-hosted: Free
+  - API Credits: Starting at $10/month
+  - Enterprise: Custom pricing
+- **Popular UIs**:
+  - ComfyUI
+  - Automatic1111
+  - InvokeAI
+  - RunwayML
+  - DreamStudio
+- **Use Cases**:
+  - Art creation
+  - Design prototyping
+  - Content generation
+  - Game asset creation
+  - Product visualization
 
 ### Midjourney
 - **Provider**: Midjourney Inc.
@@ -133,7 +164,7 @@ Overview of prominent AI language models and their capabilities.
   - Scalable graphics
   - Brand consistency tools
 
-## AI Video Models
+## Video Generation
 
 ### Runway Gen-2
 - **Provider**: Runway
@@ -176,7 +207,7 @@ Overview of prominent AI language models and their capabilities.
   - Business: Custom
   - Enterprise: Custom 
 
-## Voice AI
+## Voice Generation
 
 ### Bland.ai
 - **Provider**: Bland
@@ -226,3 +257,35 @@ Overview of prominent AI language models and their capabilities.
   - Gemma
   - And many more
 - **Pricing**: Free and open source 
+
+### HuggingFace
+- **Provider**: Hugging Face Inc.
+- **Website**: [huggingface.co](https://huggingface.co)
+- **GitHub**: [github.com/huggingface](https://github.com/huggingface)
+- **Deployment**: <span class="hybrid">Cloud & Self-hosted</span>
+- **Key Features**:
+  - Model Hub with 300k+ models
+  - Datasets repository
+  - Spaces for demos
+  - AutoTrain for fine-tuning
+  - Inference API
+  - Enterprise deployment
+  - Transformers library
+- **Popular Models**:
+  - BERT
+  - T5
+  - GPT-2
+  - Stable Diffusion
+  - Whisper
+  - CodeLlama
+- **Pricing**:
+  - Open Source: Free
+  - Pro: $9/month
+  - Enterprise: Custom pricing
+- **Use Cases**:
+  - Model discovery and sharing
+  - Model training and fine-tuning
+  - Dataset management
+  - MLOps and deployment
+  - Research and experimentation
+  - Production inference 

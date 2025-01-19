@@ -1,4 +1,4 @@
-# Cursor Rules for AI Grain Documentation
+# Cursor Rules for AI Brain Documentation
 name: "AI Brain Documentation Management Rules"
 version: 1.0
 description: "Rules for managing and updating the AI Brain documentation in Docusaurus"
@@ -11,6 +11,15 @@ structure:
   - Place shared assets in /static directory
   - Keep images in /static/img subdirectory
   - Use relative links with @site alias
+
+# Spell Checking Rules
+spellcheck:
+  - Always add new technical terms to docs/.cspell.json when editing documentation
+  - Group related terms under appropriate comment sections in the dictionary
+  - Maintain alphabetical order within each section
+  - Include both lowercase and uppercase variants if both are used
+  - Add model names, UI tools, and framework-specific terminology
+  - Keep the dictionary organized with clear section comments
 
 # Content Format
 format:

@@ -1,6 +1,20 @@
-import { themes as prismThemes } from 'prism-react-renderer';
+import { themes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import { config as dotenvConfig } from 'dotenv';
+
+// Load environment variables
+const envResult = dotenvConfig();
+
+if (envResult.error) {
+  throw envResult.error;
+}
+
+console.log('Environment Check:', {
+  envLoaded: !!envResult.parsed,
+  apiKeyPresent: !!process.env.BLAND_API_KEY,
+  apiKeyLength: process.env.BLAND_API_KEY?.length,
+});
 
 const config: Config = {
   title: 'Wizard Supreme\'s Official AI Brain',
@@ -130,10 +144,14 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} Wizard Supreme, Inc.`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: themes.github,
+      darkTheme: themes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  customFields: {
+    blandApiKey: process.env.BLAND_API_KEY,
+  },
 };
 
 export default config;

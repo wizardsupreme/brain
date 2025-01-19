@@ -18,10 +18,16 @@
     "@docusaurus/plugin-sitemap": "^3.7.0",
     "@easyops-cn/docusaurus-search-local": "^0.48.0",
     "@mdx-js/react": "^3.0.0",
+    "axios": "^1.6.7",
+    "bland-client-js-sdk": "^0.1.9",
     "clsx": "^2.0.0",
+    "dotenv": "^16.4.7",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "bufferutil": "^4.0.8",
+    "utf-8-validate": "^5.0.10",
+    "ws": "^8.16.0"
   },
   "devDependencies": {
     "@docusaurus/core": "^3.7.0",

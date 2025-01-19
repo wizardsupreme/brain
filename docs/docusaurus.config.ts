@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/icons/brain.png',
 
   // Set the production URL of your site here
-  url: 'https://wizardsupreme.github.io', // Updated URL
+  url: 'https://wizardsupreme.com', // Correct production URL
   baseUrl: process.env.VERCEL ? "/" : "/docs", // Use "/" for all Vercel deployments (prod/preview), "/docs" for local development
 
   // GitHub pages deployment config
@@ -51,6 +51,12 @@ const config: Config = {
           showReadingTime: true,
           editUrl:
             'https://github.com/wizardsupreme/brain/edit/main/',
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
         theme: {
           customCss: './src/css/custom.css',

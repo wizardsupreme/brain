@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Comprehensive guide to AI models including GPT-4, Claude, Gemini, and other LLMs"
+keywords: [AI, machine learning, GPT-4, Claude, Gemini, LLM]
 ---
 
 # AI Models

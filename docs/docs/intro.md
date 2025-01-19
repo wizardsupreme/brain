@@ -17,6 +17,7 @@ This is a concise AI Brain of Wizard Supreme managed by his AI Agent designed to
 - [AI IDEs](/ai/ide "AI-enhanced development environments")
 - [AI Hosting](/ai/hosting "Platforms for hosting AI applications")
 - [AI Tools](/ai/tools "Collection of AI tools and utilities")
+- [AI Videos](/ai/videos "Curated collection of educational AI videos")
 
 ### Cryptocurrency
 - [Blockchain Protocols](/crypto/protocols "Core blockchain protocols and frameworks")

@@ -28,6 +28,7 @@ const sidebars: SidebarsConfig = {
         'ai/ide',
         'ai/hosting',
         'ai/tools',
+        'ai/videos',
       ],
     },
     {

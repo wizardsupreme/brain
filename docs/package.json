@@ -15,6 +15,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@docusaurus/plugin-sitemap": "^3.7.0",
     "@easyops-cn/docusaurus-search-local": "^0.48.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",

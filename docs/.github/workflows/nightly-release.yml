@@ -1,0 +1,107 @@
+name: Nightly Release
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: dev
+
+      - name: Setup Git
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          set -e # Exit on any error
+          git fetch origin main
+          
+          # Ensure we have meaningful commit messages
+          if ! git log --pretty=format:"%s" origin/main...dev | grep -q .; then
+            echo "Warning: No commit messages found between main and dev"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          # More reliable diff check
+          if ! git diff --quiet origin/main...dev; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            # Get commit messages since last release
+            COMMITS=$(git log --pretty=format:"- %s" origin/main...dev)
+            echo "commits<<EOF" >> $GITHUB_OUTPUT
+            echo "$COMMITS" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update Changelog
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          if [ ! -f CHANGELOG.md ]; then
+            echo "# Changelog" > CHANGELOG.md
+            echo "" >> CHANGELOG.md
+          fi
+          
+          # Prepare new entry
+          ENTRY="## [${{ steps.date.outputs.date }}]"
+          ENTRY="$ENTRY\n\n${{ steps.check_changes.outputs.commits }}"
+          
+          # Add new entry at top of changelog (after header)
+          sed -i "2i\\$ENTRY\n" CHANGELOG.md
+          
+          # Commit changelog
+          git add CHANGELOG.md
+          git commit -m "docs: update changelog for ${{ steps.date.outputs.date }}"
+
+      - name: Merge to main
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git checkout main
+          git pull origin main
+          git merge --no-ff dev -m "Release ${{ steps.date.outputs.date }}"
+          git push origin main
+
+      - name: Create Release Tag
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git tag v${{ steps.date.outputs.date }}
+          git push origin v${{ steps.date.outputs.date }}
+
+      - name: Create Release
+        if: steps.check_changes.outputs.has_changes == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Release ${{ steps.date.outputs.date }}
+          tag_name: v${{ steps.date.outputs.date }}
+          body: |
+            # Release ${{ steps.date.outputs.date }}
+            
+            ## What's Changed
+            ${{ steps.check_changes.outputs.commits }}
+            
+            ## 📝 Full Changelog
+            https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md
+            
+            ---
+            _This is an automated release._
+          draft: false
+          prerelease: false 

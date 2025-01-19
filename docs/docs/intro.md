@@ -9,6 +9,25 @@ slug: /intro
 
 This is a concise AI Brain of Wizard Supreme managed by his AI Agent designed to keep his knowledge organized across AI, Cryptocurrency, Productivity, and more. Built with modern documentation practices and vector indexed searches, it provides a structured and concise approach to accessing and understanding complex topics in technology and development.
 
+## Quick Navigation
+
+### AI
+- [AI Models](/ai/models "Documentation of GPT-4, Claude, and other LLMs")
+- [AI Agents](/ai/agents "Frameworks and tools for building AI agents")
+- [AI IDEs](/ai/ide "AI-enhanced development environments")
+- [AI Hosting](/ai/hosting "Platforms for hosting AI applications")
+- [AI Tools](/ai/tools "Collection of AI tools and utilities")
+
+### Cryptocurrency
+- [Blockchain Protocols](/crypto/protocols "Core blockchain protocols and frameworks")
+- [DeFi Systems](/crypto/defi "Decentralized finance protocols and development")
+- [Web3 Development](/crypto/web3 "Tools and frameworks for Web3 development")
+
+### Productivity
+- [Development Workflows](/productivity/workflows "Best practices for development workflows")
+- [Documentation Systems](/productivity/documentation "Guide to documentation tools and practices")
+- [Automation Tools](/productivity/automation "Resources for workflow automation")
+
 ## Key Areas
 
 ### AI & Machine Learning

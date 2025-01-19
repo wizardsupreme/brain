@@ -385,3 +385,38 @@ Overview of prominent AI language models and their capabilities.
   - Development
   - Creative writing
   - Coding assistance 
+
+## Content Curation
+
+### Jina.ai
+- **Provider**: Jina AI
+- **Website**: [jina.ai](https://jina.ai)
+- **Key Features**:
+  - URL to Markdown conversion
+  - World-class embeddings
+  - Neural search and reranking
+  - Zero-shot classification
+  - Text segmentation
+  - Multimodal capabilities
+- **Products**:
+  - Reader: Clean URL content for LLMs
+  - Embeddings: Multilingual & multimodal
+  - Reranker: Search relevancy optimization
+  - Classifier: Image and text classification
+  - Segmenter: Text chunking & tokenization
+- **Use Cases**:
+  - Enterprise search
+  - RAG systems
+  - Content processing
+  - Document analysis
+  - Search optimization
+- **Pricing**:
+  - Free tier available
+  - API-based pricing
+  - SOC 2 Type 1 & 2 compliant
+- **Notable Features**:
+  - No registration required
+  - Simple API integration
+  - High-quality content extraction
+  - Multiple content formats
+  - Streaming support 

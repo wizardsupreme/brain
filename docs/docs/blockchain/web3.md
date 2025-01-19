@@ -2,7 +2,9 @@
 sidebar_position: 3
 ---
 
-# Web3 Development
+# �� Web3 Development
+
+> Last Updated: 2025-01-19
 
 Tools and frameworks for Web3 development.
 

@@ -1,10 +1,12 @@
 ---
 sidebar_position: 2
+title: "Agents"
+description: "Concise guide to agent frameworks and development tools"
 ---
 
-# AI Agents
+# 🤖 Agents
 
-> Last Updated: 2025-01-16
+> Last Updated: 2025-01-19
 
 A collection of frameworks and tools for building AI agents.
 
@@ -13,6 +15,7 @@ A collection of frameworks and tools for building AI agents.
 | Framework | Self-Hosting | AI Capabilities | Visual Builder | Integrations | Price | Overall Score |
 |-----------|-------------|-----------------|----------------|--------------|--------|---------------|
 | n8n | 10/10 | 8/10 | 9/10 | 9/10 | 9/10 | 9.0/10 |
+| Flowise | 9/10 | 8/10 | 9/10 | 7/10 | 10/10 | 8.5/10 |
 | LangChain | 8/10 | 9/10 | 5/10 | 8/10 | 10/10 | 8.2/10 |
 | ElizaOS | 7/10 | 8/10 | 6/10 | 7/10 | 10/10 | 7.6/10 |
 | AutoGPT | 7/10 | 8/10 | 4/10 | 6/10 | 10/10 | 7.1/10 |
@@ -36,6 +39,15 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
 - **GitHub**: [n8n-io/n8n](https://github.com/n8n-io/n8n)
 - **Website**: [n8n.io](https://n8n.io)
 - **Description**: Fair-code workflow automation platform with native AI capabilities
+- **Hosting Options**:
+  - Self-hosted (Fair-code)
+  - Cloud version (n8n.cloud)
+  - Enterprise self-hosted
+- **Pricing**:
+  - Self-hosted: Free for personal use
+  - Cloud Starter: $20/month
+  - Cloud Pro: $45/month
+  - Enterprise: Custom pricing
 - **Key Features**:
   - 400+ integrations
   - Visual workflow builder
@@ -76,9 +88,69 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
   - Resource intensive for self-hosting
   - Some features limited to enterprise
 
+## Flowise
+- **GitHub**: [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)
+- **Website**: [flowiseai.com](https://flowiseai.com)
+- **Description**: Open-source UI visual tool for building LLM flows with LangchainJS
+- **Hosting Options**:
+  - Self-hosted (Open Source)
+  - Cloud version (Beta)
+- **Pricing**:
+  - Community Edition: Free, self-hosted
+  - Cloud Beta: Free during beta
+  - Enterprise: Custom pricing, contact sales
+- **Key Features**:
+  - Drag-and-drop flow builder
+  - LangchainJS integration
+  - 100+ pre-built nodes
+  - API endpoint generation
+  - Docker deployment support
+  - Credential management
+  - Built-in authentication
+  - API key management
+  - Team collaboration (Enterprise)
+- **Deployment Options**:
+  ```bash
+  # NPM installation
+  npm install -g flowise
+  npx flowise start
+
+  # Docker deployment
+  docker run -d \
+    --name flowise \
+    -p 3000:3000 \
+    -v ~/.flowise:/root/.flowise \
+    --restart unless-stopped \
+    flowiseai/flowise
+  ```
+- **System Requirements**:
+  - Node.js 18 or higher
+  - 2GB RAM minimum
+  - 1GB storage space
+- **Pros**:
+  - Intuitive visual interface
+  - Easy deployment options
+  - Active development
+  - Strong LangChain integration
+  - Free and open-source
+  - Regular updates
+  - Growing marketplace
+- **Cons**:
+  - Newer project compared to alternatives
+  - Limited enterprise features
+  - Community still growing
+  - Some advanced features require coding
+  - Cloud version still in beta
+
 ## ElizaOS
 - **GitHub**: [ElizaOS](https://github.com/elizaos)
 - **Description**: An operating system designed for AI agents, focusing on autonomous operation and system integration.
+- **Hosting Options**:
+  - Self-hosted only
+  - Custom deployment
+- **Pricing**:
+  - Open Source: Free
+  - Commercial use: Contact team
 - **Key Features**:
   - AI-first architecture
   - Built-in agent capabilities
@@ -99,6 +171,12 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
 - **GitHub**: [blorm-network/ZerePy](https://github.com/blorm-network/ZerePy)
 - **Demo**: [Replit Template](https://replit.com/@blormdev/ZerePy?v=1)
 - **Description**: A Python framework for building zero-shot capable AI agents
+- **Hosting Options**:
+  - Self-hosted
+  - Replit deployment
+- **Pricing**:
+  - Open Source: Free
+  - No paid plans currently
 - **Key Features**:
   - CLI for managing agents
   - Multiple LLM support (OpenAI, Anthropic, EternalAI, etc.)
@@ -121,6 +199,14 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
 - **GitHub**: [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 - **Documentation**: [Python Docs](https://python.langchain.com/docs/get_started/introduction)
 - **Description**: Framework for developing applications powered by language models
+- **Hosting Options**:
+  - Self-hosted
+  - LangSmith (Managed Platform)
+  - Cloud deployment support
+- **Pricing**:
+  - Open Source: Free
+  - LangSmith: Free during beta
+  - Enterprise: Custom pricing
 - **Key Features**:
   - Chains and agents
   - Document handling
@@ -142,6 +228,12 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
 ## AutoGPT
 - **GitHub**: [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
 - **Description**: Autonomous AI agents that can perform complex tasks
+- **Hosting Options**:
+  - Self-hosted only
+  - Docker deployment
+- **Pricing**:
+  - Open Source: Free
+  - No commercial version
 - **Key Features**:
   - Task decomposition
   - Autonomous goal pursuit
@@ -162,6 +254,12 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
 ## BabyAGI
 - **GitHub**: [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi)
 - **Description**: Task-driven autonomous AI agent
+- **Hosting Options**:
+  - Self-hosted only
+  - Local deployment
+- **Pricing**:
+  - Open Source: Free
+  - No paid plans
 - **Key Features**:
   - Task creation and prioritization
   - Autonomous execution
@@ -182,6 +280,15 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
 - **GitHub**: [deepset-ai/haystack](https://github.com/deepset-ai/haystack)
 - **Documentation**: [Haystack Docs](https://docs.haystack.deepset.ai/)
 - **Description**: End-to-end framework for building NLP applications
+- **Hosting Options**:
+  - Self-hosted
+  - Deepset Cloud
+  - Custom deployment
+- **Pricing**:
+  - Open Source: Free
+  - Cloud Starter: Free
+  - Cloud Pro: Custom pricing
+  - Enterprise: Contact sales
 - **Key Features**:
   - Question answering
   - Semantic search
@@ -201,6 +308,14 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
 - **GitHub**: [RasaHQ/rasa](https://github.com/RasaHQ/rasa)
 - **Documentation**: [Rasa Docs](https://rasa.com/docs/)
 - **Description**: Framework for building conversational AI assistants
+- **Hosting Options**:
+  - Self-hosted
+  - Rasa Enterprise
+  - Cloud deployment
+- **Pricing**:
+  - Open Source: Free
+  - Pro: Starting $1000/month
+  - Enterprise: Custom pricing
 - **Key Features**:
   - Natural language understanding
   - Dialogue management

@@ -1,64 +1,16 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
+title: "Tools"
+description: "Collection of AI-powered tools and utilities"
 ---
 
-# AI Tools
+# 🛠️ Tools
 
-> Last Updated: 2025-01-16
+> Last Updated: 2025-01-19
 
 Collection of specialized AI tools for content creation, voice synthesis, and video generation.
 
 ## Content Generation
-
-### ChatGPT
-- **Website**: [chat.openai.com](https://chat.openai.com)
-- **Pricing**: [openai.com/pricing](https://openai.com/pricing)
-- **API**: [platform.openai.com/docs/api-reference](https://platform.openai.com/docs/api-reference)
-- **Features**:
-  - Custom GPTs creation
-  - Data training capabilities
-  - Script generation
-  - Ad copy creation
-  - Marketing content
-- **Pricing Tiers**:
-  - Free: Basic access
-  - Plus: $20/month
-  - Team: $30/user/month
-  - Enterprise: Custom pricing
-- **Pros**:
-  - Versatile use cases
-  - Custom training options
-  - Large knowledge base
-  - Active development
-- **Cons**:
-  - Can be inconsistent
-  - Limited context window
-  - Training requires expertise
-  - Usage limitations
-
-### Claude
-- **Website**: [claude.ai](https://claude.ai)
-- **Pricing**: [anthropic.com/pricing](https://anthropic.com/pricing)
-- **API**: [anthropic.com/docs/api](https://anthropic.com/docs/api)
-- **Features**:
-  - Long-form content creation
-  - Document analysis
-  - Research assistance
-  - Code generation
-- **Pricing Tiers**:
-  - Free: 5 messages/day
-  - Claude Pro: $20/month
-  - Enterprise: Custom pricing
-- **Pros**:
-  - Large context window
-  - High accuracy
-  - File uploads
-  - Detailed responses
-- **Cons**:
-  - Limited free tier
-  - No custom training
-  - Regional restrictions
-  - No mobile app
 
 ### Cassidy.ai
 - **Website**: [cassidy.ai](https://cassidy.ai)
@@ -85,34 +37,6 @@ Collection of specialized AI tools for content creation, voice synthesis, and vi
   - No API access
   - Learning curve for brand voice
   - Processing delays
-
-## Voice Generation
-
-### ElevenLabs
-- **Website**: [elevenlabs.io](https://elevenlabs.io)
-- **Pricing**: [elevenlabs.io/pricing](https://elevenlabs.io/pricing)
-- **API**: [docs.elevenlabs.io/api-reference](https://docs.elevenlabs.io/api-reference)
-- **Features**:
-  - Voice cloning
-  - Text-to-speech
-  - Voice design
-  - Language support
-- **Pricing Tiers**:
-  - Free: 10,000 characters/month
-  - Starter: $5/month
-  - Creator: $22/month
-  - Pro: $99/month
-  - Enterprise: Custom
-- **Pros**:
-  - High-quality voices
-  - Multiple languages
-  - Easy voice cloning
-  - Good API
-- **Cons**:
-  - Limited free tier
-  - Higher latency on free
-  - Some accent limitations
-  - Usage restrictions
 
 ## Video Generation
 
@@ -213,33 +137,6 @@ Collection of specialized AI tools for content creation, voice synthesis, and vi
   - Limited customization
   - Learning curve
 
-## Image Generation
-
-### Midjourney
-- **Website**: [midjourney.com](https://midjourney.com)
-- **Pricing**: [midjourney.com/pricing](https://midjourney.com/pricing)
-- **API**: Discord bot interface
-- **Features**:
-  - AI image generation
-  - Style customization
-  - High resolution output
-  - Discord integration
-- **Pricing Tiers**:
-  - Basic: $10/month
-  - Standard: $30/month
-  - Pro: $60/month
-  - Mega: $120/month
-- **Pros**:
-  - High-quality output
-  - Active community
-  - Unique art style
-  - Regular updates
-- **Cons**:
-  - Discord-only interface
-  - No free tier
-  - Queue times
-  - Learning curve
-
 ## Presentation Tools
 
 ### Beautiful.ai
@@ -266,32 +163,3 @@ Collection of specialized AI tools for content creation, voice synthesis, and vi
   - Some features pro-only
   - Export limitations
   - Internet required
-
-## Automation Tools
-
-### n8n
-- **Website**: [n8n.io](https://n8n.io)
-- **Pricing**: [n8n.io/pricing](https://n8n.io/pricing)
-- **API**: [docs.n8n.io/api](https://docs.n8n.io/api)
-- **Features**:
-  - Visual AI agent builder
-  - 400+ integrations
-  - Code nodes (JavaScript/Python)
-  - Self-hosting option
-  - Workflow automation
-- **Pricing Tiers**:
-  - Free: Self-hosted
-  - Starter: $20/month
-  - Pro: $45/month
-  - Enterprise: Custom
-- **Pros**:
-  - Visual workflow builder
-  - Extensive integration library
-  - Code flexibility
-  - Self-hosting available
-  - Active community
-- **Cons**:
-  - Learning curve for complex flows
-  - Resource intensive for self-hosting
-  - Some features enterprise-only
-  - Limited free cloud option 

@@ -1,16 +1,17 @@
 ---
 sidebar_position: 1
-description: "Comprehensive guide to AI models including GPT-4, Claude, Gemini, and other LLMs"
+title: "Models"
+description: "Concise guide to language models including GPT-4, Claude, Gemini, and other LLMs"
 keywords: [AI, machine learning, GPT-4, Claude, Gemini, LLM]
 ---
 
-# AI Models
+# 🧠 Models
 
-> Last Updated: 2025-01-16
+> Last Updated: 2025-01-19
 
 Overview of prominent AI language models and their capabilities.
 
-## General Models
+## LLMs
 
 ### ChatGPT
 - **Provider**: OpenAI
@@ -68,8 +69,25 @@ Overview of prominent AI language models and their capabilities.
   - Document analysis
   - Smart summarization
   - Research assistance 
+  - Has the biggest content window (25 million!)
+  - Low hallucinations
+  - Lower Creativity
+  - Can take in the largest sets of documents
+  - Can make Audio Summary and Podcasts from contents.
 
-## AI Image Models
+### Grok
+- **Provider**: xAI
+- **Website**: [grok.x.ai](https://grok.x.ai)
+- **Key Features**:
+  - Real-time X (Twitter) data access
+  - Code generation and analysis
+  - Mathematical reasoning
+  - Conversational AI
+  - Unique personality
+- **Access**: Limited beta
+  - X Premium+ subscribers
+
+## Image Generation
 
 ### DALL-E 3
 - **Provider**: OpenAI
@@ -84,6 +102,37 @@ Overview of prominent AI language models and their capabilities.
   - Pay-per-generation
   - 1024×1024: $0.040/image
   - 1024×1792: $0.080/image
+
+### Stable Diffusion
+- **Provider**: Stability AI
+- **Website**: [stability.ai](https://stability.ai)
+- **GitHub**: [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)
+- **API**: [platform.stability.ai](https://platform.stability.ai)
+- **Deployment**: <span class="hybrid">Cloud & Self-hosted</span>
+- **Key Features**:
+  - Text-to-image generation
+  - Image-to-image editing
+  - Inpainting and outpainting
+  - Multiple model versions (XL, 2.1, 3)
+  - ControlNet support
+  - Custom model training
+  - Open source
+- **Pricing**:
+  - Self-hosted: Free
+  - API Credits: Starting at $10/month
+  - Enterprise: Custom pricing
+- **Popular UIs**:
+  - ComfyUI
+  - Automatic1111
+  - InvokeAI
+  - RunwayML
+  - DreamStudio
+- **Use Cases**:
+  - Art creation
+  - Design prototyping
+  - Content generation
+  - Game asset creation
+  - Product visualization
 
 ### Midjourney
 - **Provider**: Midjourney Inc.
@@ -132,7 +181,7 @@ Overview of prominent AI language models and their capabilities.
   - Scalable graphics
   - Brand consistency tools
 
-## AI Video Models
+## Video Generation
 
 ### Runway Gen-2
 - **Provider**: Runway
@@ -174,3 +223,86 @@ Overview of prominent AI language models and their capabilities.
   - Personal: $29/month
   - Business: Custom
   - Enterprise: Custom 
+
+## Voice Generation
+
+### Bland.ai
+- **Provider**: Bland
+- **Website**: [bland.ai](https://bland.ai)
+- **Key Features**:
+  - Real-time voice AI calls
+  - Natural conversation flow
+  - Custom voice cloning
+  - API integration
+  - Call analytics
+- **Pricing**: [bland.ai/pricing](https://bland.ai/pricing)
+  - Pay-per-minute model
+  - Volume discounts available
+  - Custom enterprise plans
+
+### ElevenLabs
+- **Provider**: ElevenLabs
+- **Website**: [elevenlabs.io](https://elevenlabs.io)
+- **Key Features**:
+  - Text-to-speech synthesis
+  - Voice cloning
+  - Custom voice creation
+  - API access
+- **Pricing**: [elevenlabs.io/pricing](https://elevenlabs.io/pricing)
+  - Pay-per-minute model
+  - Volume discounts available
+  - Custom enterprise plans 
+
+## Tools
+
+### Ollama
+- **Provider**: Ollama
+- **Website**: [ollama.ai](https://ollama.ai)
+- **GitHub**: [github.com/ollama/ollama](https://github.com/ollama/ollama)
+- **Deployment**: <span class="self-hosted">Self-hosted</span>
+- **Key Features**:
+  - Run LLMs locally
+  - Easy model management
+  - Multiple model support
+  - API access
+  - Cross-platform
+  - Docker support
+- **Supported Models**:
+  - Llama 3
+  - Mistral
+  - CodeLlama
+  - Gemma
+  - And many more
+- **Pricing**: Free and open source 
+
+### HuggingFace
+- **Provider**: Hugging Face Inc.
+- **Website**: [huggingface.co](https://huggingface.co)
+- **GitHub**: [github.com/huggingface](https://github.com/huggingface)
+- **Deployment**: <span class="hybrid">Cloud & Self-hosted</span>
+- **Key Features**:
+  - Model Hub with 300k+ models
+  - Datasets repository
+  - Spaces for demos
+  - AutoTrain for fine-tuning
+  - Inference API
+  - Enterprise deployment
+  - Transformers library
+- **Popular Models**:
+  - BERT
+  - T5
+  - GPT-2
+  - Stable Diffusion
+  - Whisper
+  - CodeLlama
+- **Pricing**:
+  - Open Source: Free
+  - Pro: $9/month
+  - Enterprise: Custom pricing
+- **Use Cases**:
+  - Model discovery and sharing
+  - Model training and fine-tuning
+  - Dataset management
+  - MLOps and deployment
+  - Research and experimentation
+  - Production inference 

@@ -1,6 +1,7 @@
 import React from 'react';
 
 type FeatureItem = {
+  id: string;
   title: string;
   icon: string;
   description: JSX.Element;
@@ -8,6 +9,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
+    id: 'ai-features',
     title: 'AI',
     icon: '🤖',
     description: (
@@ -18,16 +20,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Productivity',
-    icon: '⚡',
-    description: (
-      <>
-        Tools and frameworks for enhancing productivity. Documentation, automation, 
-        and workflow optimization techniques for modern development.
-      </>
-    ),
-  },
-  {
+    id: 'blockchain-features',
     title: 'Crypto/Blockchain',
     icon: '🔗',
     description: (
@@ -37,9 +30,20 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  {
+    id: 'productivity-features',
+    title: 'Productivity',
+    icon: '⚡',
+    description: (
+      <>
+        Tools and frameworks for enhancing productivity. Documentation, automation, 
+        and workflow optimization techniques for modern development.
+      </>
+    ),
+  },
 ];
 
-function Feature({title, icon, description}: FeatureItem) {
+function Feature({id, title, icon, description}: FeatureItem) {
   return (
     <div className="feature-item">
       <div className="feature-icon">{icon}</div>
@@ -56,8 +60,8 @@ export default function HomepageFeatures(): JSX.Element {
     <section className="features">
       <div className="container">
         <div className="features-grid">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {FeatureList.map((props) => (
+            <Feature key={props.id} {...props} />
           ))}
         </div>
       </div>

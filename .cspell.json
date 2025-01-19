@@ -1,0 +1,78 @@
+{
+  "words": [
+    // AI Tools & Frameworks
+    "AAIG",
+    "babyAGI",
+    "deepset",
+    "flowise",
+    "flowiseAI",
+    "frontmatter",
+    "Grok",
+    "HuggingFace",
+    "inpainting",
+    "outpainting",
+    "langchain",
+    "OpenAI",
+    "Rasa",
+    "xAI",
+    "Zerepy",
+
+    // AI Models & UIs
+    "BERT",
+    "CodeLlama",
+    "ComfyUI",
+    "ControlNet",
+    "DreamStudio",
+    "InvokeAI",
+    "Mistral",
+    "RunwayML",
+    "Whisper",
+
+    // Development Tools & IDEs
+    "Blorm",
+    "Coderabbit",
+    "Codestral",
+    "Docusaurus",
+    "Farcaster",
+    "Nuxt",
+    "Replit",
+    "Tabnine",
+    "Viem",
+    "Wagmi",
+
+    // Cloud Services & Hosting
+    "AlibabaCloud",
+    "Buildpacks",
+    "Colab",
+    "Devcenter",
+    "DOKS",
+    "Dyno",
+    "Dynos",
+    "RepoCloud",
+
+    // Blockchain & Web3
+    "Cosm",
+    "Devnet",
+    "IPFS",
+    "Keplr",
+    "Solana",
+    "Tendermint",
+
+    // Technical Terms
+    "apidocs",
+    "Collateralization",
+    "Mythril",
+    "Reentrancy",
+
+    // Developer Names
+    "Medin",
+    "yoheinakajima",
+    "Zere",
+
+    // New words
+    "wizardnayeem",
+    "wizardsupreme",
+    "Waitlist"
+  
+  ]
+} 

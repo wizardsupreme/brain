@@ -1,4 +1,4 @@
-# Cursor Rules for AI Grain Documentation
+# Cursor Rules for AI Brain Documentation
 name: "AI Brain Documentation Management Rules"
 version: 1.0
 description: "Rules for managing and updating the AI Brain documentation in Docusaurus"
@@ -11,6 +11,15 @@ structure:
   - Place shared assets in /static directory
   - Keep images in /static/img subdirectory
   - Use relative links with @site alias
+
+# Spell Checking Rules
+spellcheck:
+  - Always add new technical terms to docs/.cspell.json when editing documentation
+  - Group related terms under appropriate comment sections in the dictionary
+  - Maintain alphabetical order within each section
+  - Include both lowercase and uppercase variants if both are used
+  - Add model names, UI tools, and framework-specific terminology
+  - Keep the dictionary organized with clear section comments
 
 # Content Format
 format:
@@ -98,3 +107,86 @@ searchTerms:
   - Tools
   - Frameworks
   - Models
+
+# Documentation Structure
+docs:
+  paths:
+    models: docs/docs/ai/models.md
+    spellcheck: .cspell.json  # Root level spell check dictionary
+  
+  models_doc:
+    location: docs/docs/ai/models.md
+    format:
+      - section_order:
+        - LLMs
+        - Image Generation
+        - Video Generation
+        - Voice Generation
+        - Tools
+      - model_entry:
+        - Provider
+        - Website/Access
+        - Key Features
+        - Description (optional)
+        - Pricing (if applicable)
+        - Access requirements (if applicable)
+    metadata:
+      - sidebar_position
+      - title
+      - description
+      - keywords
+    last_updated:
+      format: "YYYY-MM-DD"
+      location: "Top of file, after title"
+
+  spellcheck:
+    location: .cspell.json
+    sections:
+      - AI Tools & Frameworks
+      - AI Models & UIs
+      - Development Tools & IDEs
+      - Cloud Services & Hosting
+      - Blockchain & Web3
+      - Technical Terms
+      - Developer Names
+    rules:
+      - Maintain alphabetical order within sections
+      - Add new terms when updating documentation
+      - Group related terms under appropriate sections
+      - Include both common variants if needed
+
+# Update Procedures
+procedures:
+  model_updates:
+    - Check existing format in models.md
+    - Add new model under appropriate section
+    - Follow established entry structure
+    - Update last modified date
+    - Add new terms to spell check dictionary
+  
+  spell_check:
+    - Add new terms to root .cspell.json
+    - Group under appropriate section
+    - Maintain alphabetical order
+    - Include common variants
+
+# Directory Structure
+directory_structure:
+  docs:
+    docs:
+      intro.md # Introduction
+      ai:
+        - models.md  # AI language models
+        - agents.md  # AI agent frameworks
+        - ide.md     # AI-enhanced IDEs
+        - hosting.md # Hosting options
+        - videos.md  # Educational videos
+        - tools.md   # AI development tools
+      blockchain:
+        - protocols.md  # Blockchain protocols
+        - defi.md      # DeFi systems
+        - web3.md      # Web3 development
+      productivity:
+        - workflows.md      # Development workflows
+        - documentation.md  # Documentation systems
+        - automation.md     # Automation tools

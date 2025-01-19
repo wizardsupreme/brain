@@ -11,36 +11,29 @@ This is a concise AI Brain of Wizard Supreme managed by his AI Agent designed to
 
 ## Quick Navigation
 
-### AI
-- [AI Models](/ai/models "Documentation of GPT-4, Claude, and other LLMs")
-- [AI Agents](/ai/agents "Frameworks and tools for building AI agents")
-- [AI IDEs](/ai/ide "AI-enhanced development environments")
-- [AI Hosting](/ai/hosting "Platforms for hosting AI applications")
-- [AI Tools](/ai/tools "Collection of AI tools and utilities")
-
-### Cryptocurrency
-- [Blockchain Protocols](/crypto/protocols "Core blockchain protocols and frameworks")
-- [DeFi Systems](/crypto/defi "Decentralized finance protocols and development")
-- [Web3 Development](/crypto/web3 "Tools and frameworks for Web3 development")
-
-### Productivity
-- [Development Workflows](/productivity/workflows "Best practices for development workflows")
-- [Documentation Systems](/productivity/documentation "Guide to documentation tools and practices")
-- [Automation Tools](/productivity/automation "Resources for workflow automation")
+| 🤖 AI | 🔗 Blockchain | ⚡ Productivity |
+|:--|:--|:--|
+| [🧠 Models](/ai/models "Documentation of GPT-4, Claude, and other LLMs") | [⛓️ Protocols](/blockchain/protocols "Core blockchain protocols and frameworks") | [📈 Workflows](/productivity/workflows "Best practices for development workflows") |
+| [🤖 Agents](/ai/agents "Frameworks and tools for building AI agents") | [💰 DeFi](/blockchain/defi "Decentralized finance protocols and development") | [📚 Documentation](/productivity/documentation "Guide to documentation tools and practices") |
+| [💾 Storage](/ai/storage "Vector and relational databases for AI") | [🌐 Web3](/blockchain/web3 "Tools and frameworks for Web3 development") | [⚡ Automation](/productivity/automation "Resources for workflow automation") |
+| [💻 IDEs](/ai/ides "AI-enhanced development environments") | | |
+| [☁️ Hosting](/ai/hosting "Platforms for hosting AI applications") | | |
+| [🛠️ Tools](/ai/tools "Collection of AI tools and utilities") | | |
+| [🎥 Videos](/ai/videos "Curated collection of educational AI videos") | | |
 
 ## Key Areas
 
-### AI & Machine Learning
+### AI
 - **Model Documentation**: Concise coverage of AI models like GPT-4, Claude, and other LLMs
 - **Agent Frameworks**: Concise information on AI agent development and deployment
-- **Development Tools**: Concise breadown of AI-enhanced IDEs and development environments
+- **Development Tools**: Concise breakdown of AI-enhanced IDEs and development environments
 
-### Cryptocurrency & Blockchain
+### Blockchain
 - **Protocol Documentation**: Concise coverage of blockchain protocols and smart contracts
 - **DeFi Systems**: Concise guides on decentralized finance platforms
 - **Web3 Development**: Concise resources for blockchain development and integration
 
-### Productivity & Tools
+### Productivity
 - **Development Workflows**: Concise best practices and tool configurations
 - **Documentation Systems**: Concise guides on setting up and maintaining documentation
 - **Automation Tools**: Concise resources for workflow automation and optimization

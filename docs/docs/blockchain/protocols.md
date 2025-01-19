@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Blockchain Protocols
+# ⛓️ Blockchain Protocols
+
+> Last Updated: 2025-01-19
 
 Core blockchain protocols and their development frameworks.
 

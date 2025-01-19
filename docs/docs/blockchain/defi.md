@@ -2,7 +2,9 @@
 sidebar_position: 2
 ---
 
-# DeFi Systems
+# 💰 DeFi Systems
+
+> Last Updated: 2025-01-19
 
 Decentralized finance protocols and development.
 
@@ -43,3 +45,7 @@ Decentralized finance protocols and development.
   - Slither
   - Echidna
   - Mythril 
+
+# DeFi Systems
+
+> Last Updated: 2025-01-19 

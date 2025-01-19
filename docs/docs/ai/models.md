@@ -80,7 +80,8 @@ Overview of prominent AI language models and their capabilities.
   - Text-to-image generation
   - Image editing capabilities
   - Photorealistic results
-- **Pricing**: Pay-per-generation
+- **Pricing**: [openai.com/pricing](https://openai.com/pricing)
+  - Pay-per-generation
   - 1024×1024: $0.040/image
   - 1024×1792: $0.080/image
 
@@ -93,7 +94,7 @@ Overview of prominent AI language models and their capabilities.
   - High-quality outputs
   - Style customization
   - Community features
-- **Pricing**:
+- **Pricing**: [midjourney.com/pricing](https://midjourney.com/pricing)
   - Basic: $10/month
   - Standard: $30/month
   - Pro: $60/month
@@ -107,7 +108,7 @@ Overview of prominent AI language models and their capabilities.
   - Batch generation
   - Asset library
   - Commercial rights
-- **Pricing**:
+- **Pricing**: [leonardo.ai/pricing](https://leonardo.ai/pricing)
   - Free: Limited generations
   - Pro: $10/month
   - Business: Custom

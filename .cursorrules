@@ -107,3 +107,65 @@ searchTerms:
   - Tools
   - Frameworks
   - Models
+
+# Documentation Structure
+docs:
+  paths:
+    models: docs/docs/ai/models.md
+    spellcheck: .cspell.json  # Root level spell check dictionary
+  
+  models_doc:
+    location: docs/docs/ai/models.md
+    format:
+      - section_order:
+        - LLMs
+        - Image Generation
+        - Video Generation
+        - Voice Generation
+        - Tools
+      - model_entry:
+        - Provider
+        - Website/Access
+        - Key Features
+        - Description (optional)
+        - Pricing (if applicable)
+        - Access requirements (if applicable)
+    metadata:
+      - sidebar_position
+      - title
+      - description
+      - keywords
+    last_updated:
+      format: "YYYY-MM-DD"
+      location: "Top of file, after title"
+
+  spellcheck:
+    location: .cspell.json
+    sections:
+      - AI Tools & Frameworks
+      - AI Models & UIs
+      - Development Tools & IDEs
+      - Cloud Services & Hosting
+      - Blockchain & Web3
+      - Technical Terms
+      - Developer Names
+    rules:
+      - Maintain alphabetical order within sections
+      - Add new terms when updating documentation
+      - Group related terms under appropriate sections
+      - Include both common variants if needed
+
+# Update Procedures
+procedures:
+  model_updates:
+    - Check existing format in models.md
+    - Add new model under appropriate section
+    - Follow established entry structure
+    - Update last modified date
+    - Add new terms to spell check dictionary
+  
+  spell_check:
+    - Add new terms to root .cspell.json
+    - Group under appropriate section
+    - Maintain alphabetical order
+    - Include common variants

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: "Agents"
-description: "Guide to agent frameworks and development tools"
+description: "Concise guide to agent frameworks and development tools"
 ---
 
 # 🤖 Agents

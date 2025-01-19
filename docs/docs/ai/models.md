@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: "Models"
-description: "Comprehensive guide to language models including GPT-4, Claude, Gemini, and other LLMs"
+description: "Concise guide to language models including GPT-4, Claude, Gemini, and other LLMs"
 keywords: [AI, machine learning, GPT-4, Claude, Gemini, LLM]
 ---
 
@@ -69,6 +69,23 @@ Overview of prominent AI language models and their capabilities.
   - Document analysis
   - Smart summarization
   - Research assistance 
+  - Has the biggest content window (25 million!)
+  - Low hallucinations
+  - Lower Creativity
+  - Can take in the largest sets of documents
+  - Can make Audio Summary and Podcasts from contents.
+
+### Grok
+- **Provider**: xAI
+- **Website**: [grok.x.ai](https://grok.x.ai)
+- **Key Features**:
+  - Real-time X (Twitter) data access
+  - Code generation and analysis
+  - Mathematical reasoning
+  - Conversational AI
+  - Unique personality
+- **Access**: Limited beta
+  - X Premium+ subscribers
 
 ## Image Generation
 

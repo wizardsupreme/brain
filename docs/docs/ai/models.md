@@ -8,7 +8,9 @@ sidebar_position: 1
 
 Overview of prominent AI language models and their capabilities.
 
-## ChatGPT
+## General Models
+
+### ChatGPT
 - **Provider**: OpenAI
 - **Access**: [chat.openai.com](https://chat.openai.com)
 - **Key Features**:
@@ -22,7 +24,7 @@ Overview of prominent AI language models and their capabilities.
   - Screenshots
   - Image Generation
 
-## Claude
+### Claude
 - **Provider**: Anthropic
 - **Access**: [claude.ai](https://claude.ai)
 - **Key Features**:
@@ -31,7 +33,7 @@ Overview of prominent AI language models and their capabilities.
   - Code generation
   - Multiple versions (Claude 2, Claude 3)
 
-## DeepSeek
+### DeepSeek
 - **Website**: [deepseek.ai](https://deepseek.ai)
 - **Access**: [DeepSeek Chat](https://chat.deepseek.com)
 - **GitHub**: [deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
@@ -39,15 +41,17 @@ Overview of prominent AI language models and their capabilities.
 - **Key Features**:
   - Code generation
 
-## Llama 3
+### Llama 3
 - **Provider**: Meta
 - **Description**: Open-source large language model
 - **Key Features**:
   - Multiple model sizes
   - Fine-tuning capabilities
   - Research and commercial use
+  - API access
+  - Can run locally with Ollama
 
-## Gemini
+### Gemini
 - **Provider**: Google
 - **Access**: [gemini.google.com](https://gemini.google.com)
 - **Key Features**:
@@ -55,7 +59,7 @@ Overview of prominent AI language models and their capabilities.
   - Multiple versions (Pro, Ultra)
   - API access
 
-## NotebookLM
+### NotebookLM
 - **Provider**: Google
 - **Description**: AI-powered note-taking and research assistant
 - **Key Features**:

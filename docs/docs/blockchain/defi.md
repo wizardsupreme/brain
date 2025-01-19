@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # 💰 DeFi Systems
 
+> Last Updated: 2025-01-19
+
 Decentralized finance protocols and development.
 
 ## Core Concepts

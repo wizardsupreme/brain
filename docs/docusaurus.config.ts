@@ -31,7 +31,6 @@ const config: Config = {
         hashed: true,
         language: ["en"],
         indexDocs: true,
-        indexBlog: false,
         docsRouteBasePath: "/",
       }
     ],
@@ -44,11 +43,6 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
-          editUrl:
-            'https://github.com/wizardsupreme/brain/edit/main/',
-        },
-        blog: {
-          showReadingTime: true,
           editUrl:
             'https://github.com/wizardsupreme/brain/edit/main/',
         },

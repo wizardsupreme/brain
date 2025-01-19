@@ -28,7 +28,19 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
 
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git fetch origin main
+          DIFF=$(git diff origin/main...dev)
+          if [ -n "$DIFF" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Merge to main
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git checkout main
           git pull origin main
@@ -36,11 +48,13 @@ jobs:
           git push origin main
 
       - name: Create Release Tag
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git tag v${{ steps.date.outputs.date }}
           git push origin v${{ steps.date.outputs.date }}
 
       - name: Create Release
+        if: steps.check_changes.outputs.has_changes == 'true'
         uses: softprops/action-gh-release@v1
         with:
           name: Release ${{ steps.date.outputs.date }}

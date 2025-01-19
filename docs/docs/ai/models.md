@@ -76,7 +76,7 @@ Overview of prominent AI language models and their capabilities.
 - **Website**: [openai.com/dall-e-3](https://openai.com/dall-e-3)
 - **API**: [platform.openai.com/docs/guides/images](https://platform.openai.com/docs/guides/images)
 - **Key Features**:
-  - High resolution outputs
+  - High-resolution outputs
   - Text-to-image generation
   - Image editing capabilities
   - Photorealistic results

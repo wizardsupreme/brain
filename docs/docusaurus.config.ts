@@ -51,6 +51,8 @@ const config: Config = {
           priority: 0.5,
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
+          trailingSlash: true,
+          exclude: ['**/_*.html', '**/*/test.{js,jsx,ts,tsx}'],
         },
         theme: {
           customCss: './src/css/custom.css',

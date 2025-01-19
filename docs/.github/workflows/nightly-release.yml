@@ -35,9 +35,33 @@ jobs:
           DIFF=$(git diff origin/main...dev)
           if [ -n "$DIFF" ]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
+            # Get commit messages since last release
+            COMMITS=$(git log --pretty=format:"- %s" origin/main...dev)
+            echo "commits<<EOF" >> $GITHUB_OUTPUT
+            echo "$COMMITS" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Update Changelog
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          if [ ! -f CHANGELOG.md ]; then
+            echo "# Changelog" > CHANGELOG.md
+            echo "" >> CHANGELOG.md
+          fi
+          
+          # Prepare new entry
+          ENTRY="## [${{ steps.date.outputs.date }}]"
+          ENTRY="$ENTRY\n\n${{ steps.check_changes.outputs.commits }}"
+          
+          # Add new entry at top of changelog (after header)
+          sed -i "2i\\$ENTRY\n" CHANGELOG.md
+          
+          # Commit changelog
+          git add CHANGELOG.md
+          git commit -m "docs: update changelog for ${{ steps.date.outputs.date }}"
 
       - name: Merge to main
         if: steps.check_changes.outputs.has_changes == 'true'
@@ -60,7 +84,9 @@ jobs:
           name: Release ${{ steps.date.outputs.date }}
           tag_name: v${{ steps.date.outputs.date }}
           body: |
-            Automated release from dev branch
-            Date: ${{ steps.date.outputs.date }}
+            Release ${{ steps.date.outputs.date }}
+            
+            Changes:
+            ${{ steps.check_changes.outputs.commits }}
           draft: false
           prerelease: false 

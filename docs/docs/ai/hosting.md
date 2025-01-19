@@ -30,6 +30,7 @@ Comparison of hosting platforms for AI and web applications.
 | Linode | 8/10 | 6/10 | 7/10 | 9/10 | 8/10 | 7/10 | 7.6/10 |
 | IBM Cloud | 7/10 | 9/10 | 7/10 | 9/10 | 8/10 | 7/10 | 7.8/10 |
 | Vultr | 8/10 | 6/10 | 7/10 | 9/10 | 7/10 | 7/10 | 7.3/10 |
+| RepoCloud | 6/10 | 6/10 | 7/10 | 8/10 | 7/10 | 7/10 | 7.2/10 |
 
 ### Scoring Categories
 
@@ -373,6 +374,39 @@ Full stack platforms supporting multiple languages and frameworks (Python, Ruby,
   - Basic features
   - Limited managed services
   - Basic support 
+
+### RepoCloud
+- **Website**: [repocloud.io](https://repocloud.io)
+- **Pricing**: [repocloud.io/pricing](https://repocloud.io/pricing)
+- **API**: [docs.repocloud.io/api](https://docs.repocloud.io/api)
+- **Free Tier Limits**:
+  - 30-day free trial
+  - Full access to platform features
+  - After trial: Starts at $3/month
+- **Technologies**:
+  - Docker support
+  - Node.js, Python, PHP
+  - PostgreSQL, MySQL, MongoDB
+  - Git integration
+- **AI/ML Focus**:
+  - Container-based deployments
+  - ML model hosting
+  - Custom runtime support
+- **Pricing**: Starting at $3/month
+  - Basic: $3/month (1GB RAM, 1 CPU)
+  - Pro: $5/month (2GB RAM, 2 CPU)
+  - Business: Custom pricing
+- **Pros**:
+  - Very competitive pricing
+  - Generous 30-day trial
+  - Simple deployment process
+  - Good performance
+  - Low resource costs
+- **Cons**:
+  - Trial requires credit card
+  - Limited regions
+  - Basic monitoring
+  - Newer platform
 
 ## Cloud Providers
 Enterprise-grade cloud platforms offering comprehensive services including compute, storage, AI/ML, and managed services.

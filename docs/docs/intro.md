@@ -12,21 +12,21 @@ This is a concise AI Brain of Wizard Supreme managed by his AI Agent designed to
 ## Quick Navigation
 
 ### AI
-- [AI Models](./ai/models)
-- [AI Agents](./ai/agents)
-- [AI IDEs](./ai/ide)
-- [AI Hosting](./ai/hosting)
-- [AI Tools](./ai/tools)
+- [AI Models](/ai/models)
+- [AI Agents](/ai/agents)
+- [AI IDEs](/ai/ide)
+- [AI Hosting](/ai/hosting)
+- [AI Tools](/ai/tools)
 
 ### Cryptocurrency
-- [Blockchain Protocols](./crypto/protocols)
-- [DeFi Systems](./crypto/defi)
-- [Web3 Development](./crypto/web3)
+- [Blockchain Protocols](/crypto/protocols)
+- [DeFi Systems](/crypto/defi)
+- [Web3 Development](/crypto/web3)
 
 ### Productivity
-- [Development Workflows](./productivity/workflows)
-- [Documentation Systems](./productivity/documentation)
-- [Automation Tools](./productivity/automation)
+- [Development Workflows](/productivity/workflows)
+- [Documentation Systems](/productivity/documentation)
+- [Automation Tools](/productivity/automation)
 
 ## Key Areas
 

@@ -11,6 +11,9 @@ const config: Config = {
   url: 'https://wizardsupreme.com', // Correct production URL
   baseUrl: process.env.VERCEL ? "/" : "/docs", // Use "/" for all Vercel deployments (prod/preview), "/docs" for local development
 
+  // Global trailing slash config
+  trailingSlash: true,
+
   // GitHub pages deployment config
   organizationName: 'wizardsupreme', // GitHub org/user name
   projectName: 'docs', // Repository name
@@ -49,10 +52,12 @@ const config: Config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          ignorePatterns: [
+            '/tags/**',
+            '**/_*.html',
+            '**/*/test.{js,jsx,ts,tsx}'
+          ],
           filename: 'sitemap.xml',
-          trailingSlash: true,
-          exclude: ['**/_*.html', '**/*/test.{js,jsx,ts,tsx}'],
         },
         theme: {
           customCss: './src/css/custom.css',

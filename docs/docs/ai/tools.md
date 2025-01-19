@@ -6,7 +6,7 @@ description: "Collection of AI-powered tools and utilities"
 
 # 🛠️ Tools
 
-> Last Updated: 2025-01-16
+> Last Updated: 2025-01-19
 
 Collection of specialized AI tools for content creation, voice synthesis, and video generation.
 

@@ -6,6 +6,8 @@ sidebar_position: 1
 
 Core blockchain protocols and their development frameworks.
 
+> Last Updated: 2025-01-19
+
 ## <img src="/docs/img/icons/ethereum.svg" alt="Ethereum" class="protocol-icon" /> Ethereum
 - **Type**: Smart Contract Platform
 - **Documentation**: [ethereum.org/developers](https://ethereum.org/developers)

@@ -6,7 +6,7 @@ description: "Overview of AI-enhanced development environments"
 
 # 💻 IDEs
 
-> Last Updated: 2025-01-16
+> Last Updated: 2025-01-19
 
 AI-enhanced development environments and code editors.
 

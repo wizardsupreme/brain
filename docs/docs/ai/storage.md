@@ -7,6 +7,8 @@ keywords: [databases, vector databases, RDBMS, Qdrant, Pinecone, Supabase]
 
 # 💾 Storage
 
+> Last Updated: 2025-01-19
+
 Overview of databases commonly used in AI applications, from vector stores to relational databases.
 
 ## Vector Databases

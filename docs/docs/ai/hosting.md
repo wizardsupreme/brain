@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # 🧠 Hosting Platforms
 
-> Last Updated: 2025-01-16
+> Last Updated: 2025-01-19
 
 Comparison of hosting platforms for AI and web applications.
 

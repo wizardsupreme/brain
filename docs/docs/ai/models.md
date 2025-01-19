@@ -7,7 +7,7 @@ keywords: [AI, machine learning, GPT-4, Claude, Gemini, LLM]
 
 # 🧠 Models
 
-> Last Updated: 2025-01-16
+> Last Updated: 2025-01-19
 
 Overview of prominent AI language models and their capabilities.
 

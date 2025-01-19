@@ -7,6 +7,8 @@ keywords: [AI videos, tutorials, learning resources, AI development]
 
 # 🎥 Videos
 
+> Last Updated: 2025-01-19
+
 A curated collection of educational videos about artificial intelligence, machine learning, and AI development.
 
 ## Agent Development

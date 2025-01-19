@@ -6,7 +6,7 @@ description: "Concise guide to agent frameworks and development tools"
 
 # 🤖 Agents
 
-> Last Updated: 2025-01-16
+> Last Updated: 2025-01-19
 
 A collection of frameworks and tools for building AI agents.
 

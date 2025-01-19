@@ -34,19 +34,24 @@ npm run build
 ## Documentation Structure
 
 ```
-docs/
-├── ai/
+docs/   
+├── docs/
+│ ├── intro.md # Introduction
+│ ├── ai/
 │ ├── models.md # AI language models
 │ ├── agents.md # AI agent frameworks
-│ └── ide.md # AI-enhanced IDEs
-├── crypto/
+│ └── ides.md # AI-enhanced IDEs
+│ ├── hosting.md # Hosting options
+│ ├── videos.md # Educational videos
+│ └── tools.md # AI development tools
+├── blockchain/
 │ ├── protocols.md # Blockchain protocols
 │ ├── defi.md # DeFi systems
 │ └── web3.md # Web3 development
-└── productivity/
-├── workflows.md # Development workflows
-├── documentation.md # Documentation systems
-└── automation.md # Automation tools
+├── productivity/
+│ ├── workflows.md # Development workflows
+│ ├── documentation.md # Documentation systems
+│ └── automation.md # Automation tools
 ```
 
 ## Contributing

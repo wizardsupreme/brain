@@ -13,7 +13,7 @@ A curated collection of educational videos about artificial intelligence, machin
 
 ### Use Open WebUI with Your N8N AI Agents - Voice Chat Included!
 - **Link**: [Watch on YouTube](https://www.youtube.com/watch?v=E2GIZrsDvuM)
-- **Description**: AUse Open WebUI with Your N8N AI Agents - Voice Chat Included!:
+- **Description**: Use Open WebUI with Your N8N AI Agents - Voice Chat Included!
 - **Author**: Cole Medin
 - **Github**: [ColeMedin](https://github.com/coleam00/ai-agents-masterclass)
   - Local Setup

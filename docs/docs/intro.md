@@ -15,7 +15,7 @@ This is a concise AI Brain of Wizard Supreme managed by his AI Agent designed to
 |:--|:--|:--|
 | [🧠 Models](/ai/models "Documentation of GPT-4, Claude, and other LLMs") | [⛓️ Protocols](/blockchain/protocols "Core blockchain protocols and frameworks") | [📈 Workflows](/productivity/workflows "Best practices for development workflows") |
 | [🤖 Agents](/ai/agents "Frameworks and tools for building AI agents") | [💰 DeFi](/blockchain/defi "Decentralized finance protocols and development") | [📚 Documentation](/productivity/documentation "Guide to documentation tools and practices") |
-| [💾 Storage](/ai/databases "Vector and relational databases for AI") | [🌐 Web3](/blockchain/web3 "Tools and frameworks for Web3 development") | [⚡ Automation](/productivity/automation "Resources for workflow automation") |
+| [💾 Storage](/ai/storage "Vector and relational databases for AI") | [🌐 Web3](/blockchain/web3 "Tools and frameworks for Web3 development") | [⚡ Automation](/productivity/automation "Resources for workflow automation") |
 | [💻 IDEs](/ai/ides "AI-enhanced development environments") | | |
 | [☁️ Hosting](/ai/hosting "Platforms for hosting AI applications") | | |
 | [🛠️ Tools](/ai/tools "Collection of AI tools and utilities") | | |

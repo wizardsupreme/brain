@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# Hosting Platforms
+# 🧠 Hosting Platforms
 
 > Last Updated: 2025-01-16
 

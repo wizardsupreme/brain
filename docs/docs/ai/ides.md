@@ -1,8 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
+title: "IDEs"
+description: "Overview of AI-enhanced development environments"
 ---
 
-# AI IDEs
+# 💻 IDEs
 
 > Last Updated: 2025-01-16
 

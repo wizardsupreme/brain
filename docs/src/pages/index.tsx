@@ -38,7 +38,8 @@ function HomepageHeader() {
                   width="135"
                   height="30"
                   title="GitHub"
-                ></iframe>
+                >
+                </iframe>
               </div>
             </div>
           </div>

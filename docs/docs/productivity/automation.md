@@ -2,5 +2,5 @@
 sidebar_position: 3
 ---
 
-# Automation Tools
+# ⚡ Automation Tools
 Resources for workflow automation. 

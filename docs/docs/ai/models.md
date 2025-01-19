@@ -1,10 +1,11 @@
 ---
 sidebar_position: 1
-description: "Comprehensive guide to AI models including GPT-4, Claude, Gemini, and other LLMs"
+title: "Models"
+description: "Comprehensive guide to language models including GPT-4, Claude, Gemini, and other LLMs"
 keywords: [AI, machine learning, GPT-4, Claude, Gemini, LLM]
 ---
 
-# AI Models
+# 🧠 Models
 
 > Last Updated: 2025-01-16
 
@@ -174,3 +175,54 @@ Overview of prominent AI language models and their capabilities.
   - Personal: $29/month
   - Business: Custom
   - Enterprise: Custom 
+
+## Voice AI
+
+### Bland.ai
+- **Provider**: Bland
+- **Website**: [bland.ai](https://bland.ai)
+- **Key Features**:
+  - Real-time voice AI calls
+  - Natural conversation flow
+  - Custom voice cloning
+  - API integration
+  - Call analytics
+- **Pricing**: [bland.ai/pricing](https://bland.ai/pricing)
+  - Pay-per-minute model
+  - Volume discounts available
+  - Custom enterprise plans
+
+### ElevenLabs
+- **Provider**: ElevenLabs
+- **Website**: [elevenlabs.io](https://elevenlabs.io)
+- **Key Features**:
+  - Text-to-speech synthesis
+  - Voice cloning
+  - Custom voice creation
+  - API access
+- **Pricing**: [elevenlabs.io/pricing](https://elevenlabs.io/pricing)
+  - Pay-per-minute model
+  - Volume discounts available
+  - Custom enterprise plans 
+
+## Tools
+
+### Ollama
+- **Provider**: Ollama
+- **Website**: [ollama.ai](https://ollama.ai)
+- **GitHub**: [github.com/ollama/ollama](https://github.com/ollama/ollama)
+- **Deployment**: <span class="self-hosted">Self-hosted</span>
+- **Key Features**:
+  - Run LLMs locally
+  - Easy model management
+  - Multiple model support
+  - API access
+  - Cross-platform
+  - Docker support
+- **Supported Models**:
+  - Llama 3
+  - Mistral
+  - CodeLlama
+  - Gemma
+  - And many more
+- **Pricing**: Free and open source 

@@ -1,11 +1,11 @@
 ---
-sidebar_position: 6
-title: "Useful AI Videos"
-description: "A curated collection of educational videos about AI development and implementation"
+sidebar_position: 7
+title: "Videos"
+description: "Curated collection of educational videos about AI development"
 keywords: [AI videos, tutorials, learning resources, AI development]
 ---
 
-# Useful AI Videos
+# 🎥 Videos
 
 A curated collection of educational videos about artificial intelligence, machine learning, and AI development.
 

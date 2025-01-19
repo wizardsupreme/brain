@@ -3,7 +3,7 @@
  */
 
 :root {
-  --ifm-color-primary: #ffa600;
+  --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -131,6 +131,12 @@
   margin-right: 8px;
 }
 
+/* Self-hosted indicator */
+.self-hosted {
+  color: #25c2a0;
+  font-weight: bold;
+}
+
 /* Table of contents icons */
 .table-of-contents__link[href="#ethereum"]::before {
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='16' height='16'%3E%3Cpath fill='%23343434' d='M16 0L6 16l10 6 10-6L16 0z'/%3E%3C/svg%3E");
@@ -172,4 +178,10 @@
   display: inline-block;
   margin-right: 8px;
   vertical-align: middle;
+}
+
+/* Equal width table columns */
+.markdown table td,
+.markdown table th {
+  width: 33.33%;
 }

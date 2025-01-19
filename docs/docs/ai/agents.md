@@ -1,8 +1,10 @@
 ---
 sidebar_position: 2
+title: "Agents"
+description: "Guide to agent frameworks and development tools"
 ---
 
-# AI Agents
+# 🤖 Agents
 
 > Last Updated: 2025-01-16
 

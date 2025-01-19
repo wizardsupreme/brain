@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Web3 Development
+# 🌐 Web3 Development
 
 Tools and frameworks for Web3 development.
 

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Development Workflows
+# 📈 Development Workflows
 
 Tools for helping on Release Management.
 

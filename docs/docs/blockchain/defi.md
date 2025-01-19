@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# DeFi Systems
+# 💰 DeFi Systems
 
 Decentralized finance protocols and development.
 

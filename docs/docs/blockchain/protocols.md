@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Blockchain Protocols
+# ⛓️ Blockchain Protocols
 
 Core blockchain protocols and their development frameworks.
 

@@ -253,6 +253,30 @@ Overview of prominent AI language models and their capabilities.
   - Volume discounts available
   - Custom enterprise plans 
 
+### OpenAI Real-Time GPT-4o
+- **Provider**: OpenAI
+- **Website**: [openai.com](https://openai.com)
+- **Key Features**:
+  - voice to voice
+  - API access
+  - Real-time voice chat
+- **Pricing**: [openai.com/pricing](https://openai.com/pricing)
+  - Pay-per-minute model
+  - Volume discounts available
+  - Custom enterprise plans 
+
+### VAPI
+- **Provider**: VAPI
+- **Website**: [vapi.ai](https://vapi.ai)
+- **Key Features**:
+  - voice to voice
+  - API access
+  - Real-time voice chat
+- **Pricing**: [vapi.ai/pricing](https://vapi.ai/pricing)
+  - Pay-per-minute model
+  - Volume discounts available
+  - Custom enterprise plans 
+
 ## Tools
 
 ### Ollama

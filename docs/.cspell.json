@@ -1,0 +1,54 @@
+{
+  "words": [
+    // AI Tools & Frameworks
+    "AAIG",
+    "babyagi",
+    "deepset",
+    "langchain",
+    "openai",
+    "Rasa",
+    "Zerepy",
+
+    // Development Tools & IDEs
+    "blorm",
+    "coderabbit",
+    "Codestral",
+    "docusaurus",
+    "Farcaster",
+    "Nuxt",
+    "Replit",
+    "Tabnine",
+    "viem",
+    "wagmi",
+
+    // Cloud Services & Hosting
+    "alibabacloud",
+    "buildpacks",
+    "Colab",
+    "devcenter",
+    "DOKS",
+    "dyno",
+    "dynos",
+    "repocloud",
+
+    // Blockchain & Web3
+    "Cosm",
+    "Devnet",
+    "IPFS",
+    "Keplr",
+    "Solana",
+    "solana",
+    "Tendermint",
+
+    // Technical Terms
+    "apidocs",
+    "Collateralization",
+    "Mythril",
+    "Reentrancy",
+
+    // Developer Names
+    "Medin",
+    "yoheinakajima",
+    "Zere"
+  ]
+} 

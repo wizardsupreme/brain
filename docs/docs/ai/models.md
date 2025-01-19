@@ -330,3 +330,58 @@ Overview of prominent AI language models and their capabilities.
   - MLOps and deployment
   - Research and experimentation
   - Production inference 
+
+### OpenRouter
+- **Provider**: OpenRouter
+- **Website**: [openrouter.ai](https://openrouter.ai)
+- **GitHub**: [github.com/OpenRouterTeam/openrouter](https://github.com/OpenRouterTeam/openrouter)
+- **Key Features**:
+  - Single API for multiple LLMs
+  - Pay-as-you-go pricing
+  - Access to 50+ models
+  - Unified prompt format
+  - Load balancing
+  - Fallback routing
+- **Supported Models**:
+  - Claude 3
+  - GPT-4
+  - Gemini Pro
+  - Mistral
+  - Anthropic
+  - And many more
+- **Pricing**:
+  - Pay per token
+  - No subscription required
+  - Volume discounts available
+- **Use Cases**:
+  - Model comparison
+  - Production deployment
+  - Cost optimization
+  - Multi-model applications
+  - API standardization
+
+## Uncensored Models
+
+### Dolphin 2.9.2
+- **Provider**: Open Source
+- **Access**: [HuggingFace](https://huggingface.co/cognitivecomputations/dolphin-2.9.2-mistral-7b)
+- **Base Model**: Mistral 7B
+- **Key Features**:
+  - Uncensored responses
+  - High performance/quality ratio
+  - Low hardware requirements
+  - Supports multiple contexts
+  - Good coding capabilities
+- **Deployment**:
+  - Self-hosted via Ollama
+  - Run through various LLM interfaces
+- **Technical Details**:
+  - 7B parameters
+  - Context window: 32k tokens
+  - GGUF format available
+  - Apache 2.0 license
+- **Use Cases**:
+  - Research
+  - Development
+  - Creative writing
+  - Coding assistance 

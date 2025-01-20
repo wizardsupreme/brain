@@ -330,3 +330,30 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
   - Resource heavy
   - Training requirements
   - Limited free features 
+
+## SMOLAgent
+- **GitHub**: [smol-ai/agent](https://github.com/smol-ai/agent)
+- **Description**: Minimal autonomous agent that focuses on being small, maintainable, and extensible
+- **Hosting Options**:
+  - Self-hosted only
+  - Local deployment
+- **Pricing**:
+  - Open Source: Free
+  - No paid plans
+- **Key Features**:
+  - Minimal codebase (<1000 lines)
+  - Task decomposition
+  - Multiple LLM support
+  - Extensible architecture
+  - Python
+- **Pros**:
+  - Simple implementation
+  - Easy to understand and modify
+  - Lightweight deployment
+  - Good for learning
+  - Clean architecture
+- **Cons**:
+  - Limited built-in features
+  - Basic functionality
+  - Minimal enterprise support
+  - Manual configuration required 

@@ -10,6 +10,26 @@ Guide to documentation tools and practices.
 
 ## Knowledgebase Tools
 
+### Comparison Matrix
+
+| Tool | Self-Hosting | Features | UI/UX | Integrations | Price | Overall Score |
+|------|-------------|----------|-------|--------------|-------|---------------|
+| Outline | 8/10 | 9/10 | 9/10 | 8/10 | 8/10 | 8.5/10 |
+| WikiJS | 9/10 | 8/10 | 7/10 | 8/10 | 9/10 | 8.2/10 |
+| AppFlowy | 7/10 | 7/10 | 8/10 | 6/10 | 10/10 | 7.6/10 |
+
+### Scoring Categories
+
+Overall scores are calculated using weighted averages across five key dimensions:
+
+- **Self-Hosting**: 25% - Ease of deployment and self-hosting capabilities
+- **Features**: 25% - Breadth and depth of available features
+- **UI/UX**: 20% - Interface design and user experience
+- **Integrations**: 20% - Available integrations and extensibility
+- **Price**: 10% - Cost-effectiveness and pricing model
+
+Final score = (Self-Hosting × 0.25) + (Features × 0.25) + (UI/UX × 0.20) + (Integrations × 0.20) + (Price × 0.10)
+
 ### Outline
 - **GitHub**: [outline/outline](https://github.com/outline/outline)
 - **Website**: [outline.com](https://www.outline.com)

@@ -408,6 +408,44 @@ Full stack platforms supporting multiple languages and frameworks (Python, Ruby,
   - Basic monitoring
   - Newer platform
 
+### Coolify
+- **Website**: [coolify.io](https://coolify.io)
+- **GitHub**: [coollabsio/coolify](https://github.com/coollabsio/coolify)
+- **Documentation**: [docs.coolify.io](https://docs.coolify.io)
+- **Free Tier**: Self-hosted, open source
+- **Server Requirements**:
+  - 1GB RAM minimum (2GB+ recommended)
+  - 1 CPU core minimum
+  - 20GB storage
+  - Can be hosted on Oracle Cloud free tier
+- **Technologies**:
+  - Docker-based deployments
+  - One-click applications
+  - Git integration
+  - Database management
+  - SSL certificates
+  - Reverse proxy
+- **Key Features**:
+  - Self-hosted alternative to Heroku
+  - Application monitoring
+  - Service management
+  - Automated backups
+  - Custom domains
+  - Build caching
+- **Pros**:
+  - Completely free and open source
+  - Full control over infrastructure
+  - Privacy-focused
+  - Active development
+  - Easy installation
+  - No vendor lock-in
+- **Cons**:
+  - Requires server management
+  - Self-hosted only
+  - Basic monitoring tools
+  - Manual scaling
+  - Community support only
+
 ## Cloud Providers
 Enterprise-grade cloud platforms offering comprehensive services including compute, storage, AI/ML, and managed services.
 

@@ -56,22 +56,22 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
   - Self-hosting option
   - Enterprise features (SSO, RBAC)
 - **Deployment Options**:
-  ```bash
-  # Docker deployment with security configurations
-  docker run -it --rm \
-    --name n8n \
-    -p 5678:5678 \
-    -v ~/.n8n:/home/node/.n8n \
-    -e N8N_BASIC_AUTH_ACTIVE=true \
-    -e N8N_BASIC_AUTH_USER=admin \
-    -e N8N_BASIC_AUTH_PASSWORD=secure_password \
-    -e NODE_ENV=production \
-    --restart unless-stopped \
-    --network n8n-network \
-    docker.n8n.io/n8nio/n8n
-  ```
 
-  Key security considerations:
+```bash
+docker run -it --rm \
+  --name n8n \
+  -p 5678:5678 \
+  -v ~/.n8n:/home/node/.n8n \
+  -e N8N_BASIC_AUTH_ACTIVE=true \
+  -e N8N_BASIC_AUTH_USER=admin \
+  -e N8N_BASIC_AUTH_PASSWORD=secure_password \
+  -e NODE_ENV=production \
+  --restart unless-stopped \
+  --network n8n-network \
+  docker.n8n.io/n8nio/n8n
+```
+
+Key security considerations:
   - Basic authentication enabled
   - Production environment
   - Persistent data storage
@@ -98,7 +98,7 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
 - **Pricing**:
   - Community Edition: Free, self-hosted
   - Cloud Beta: Free during beta
-  - Enterprise: Custom pricing, contact sales
+  - Enterprise: Custom pricing
 - **Key Features**:
   - Drag-and-drop flow builder
   - LangchainJS integration
@@ -110,19 +110,21 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
   - API key management
   - Team collaboration (Enterprise)
 - **Deployment Options**:
-  ```bash
-  # NPM installation
-  npm install -g flowise
-  npx flowise start
 
-  # Docker deployment
-  docker run -d \
-    --name flowise \
-    -p 3000:3000 \
-    -v ~/.flowise:/root/.flowise \
-    --restart unless-stopped \
-    flowiseai/flowise
-  ```
+```bash
+# NPM installation
+npm install -g flowise
+npx flowise start
+
+# Docker deployment
+docker run -d \
+  --name flowise \
+  -p 3000:3000 \
+  -v ~/.flowise:/root/.flowise \
+  --restart unless-stopped \
+  flowiseai/flowise
+```
+
 - **System Requirements**:
   - Node.js 18 or higher
   - 2GB RAM minimum
@@ -314,7 +316,7 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
   - Cloud deployment
 - **Pricing**:
   - Open Source: Free
-  - Pro: Starting $1000/month
+  - Pro: Starting at USD 1000/month
   - Enterprise: Custom pricing
 - **Key Features**:
   - Natural language understanding
@@ -341,7 +343,7 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
   - Open Source: Free
   - No paid plans
 - **Key Features**:
-  - Minimal codebase (<1000 lines)
+  - Minimal codebase (less than 1000 lines)
   - Task decomposition
   - Multiple LLM support
   - Extensible architecture
@@ -356,4 +358,4 @@ Final score = (Self-Hosting × 0.25) + (AI Capabilities × 0.25) + (Visual Build
   - Limited built-in features
   - Basic functionality
   - Minimal enterprise support
-  - Manual configuration required 
+  - Manual configuration required

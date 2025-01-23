@@ -163,3 +163,30 @@ Collection of specialized AI tools for content creation, voice synthesis, and vi
   - Some features pro-only
   - Export limitations
   - Internet required
+
+## Voice Generation
+
+### Retell.ai
+- **Website**: [retell.ai](https://retell.ai)
+- **Pricing**: [retell.ai/pricing](https://retell.ai/pricing)
+- **API**: Available
+- **Features**:
+  - Real-time voice cloning
+  - Multi-language support
+  - Custom voice creation
+  - API integration
+  - Natural conversation flow
+- **Pricing Tiers**:
+  - Free: Limited testing
+  - Growth: Starting at $49/month
+  - Enterprise: Custom pricing
+- **Pros**:
+  - High-quality voice synthesis
+  - Real-time processing
+  - Developer-friendly API
+  - Multiple integration options
+- **Cons**:
+  - Usage-based pricing
+  - Limited free tier
+  - API complexity
+  - Language limitations

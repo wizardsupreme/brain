@@ -33,3 +33,8 @@ A curated collection of educational videos about artificial intelligence, machin
   - Deployment strategies
   - Monitoring and maintenance
   - Error handling and recovery 
+
+
+### Jarvis using N8N
+- **Link**: [Watch on YouTube](https://youtu.be/3hdtfhCeBsg?si=OiwErRPv5fLXfWSa)
+- **Description**: How to Build Jarvis using N8N

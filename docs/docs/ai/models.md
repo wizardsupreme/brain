@@ -253,6 +253,30 @@ Overview of prominent AI language models and their capabilities.
   - Volume discounts available
   - Custom enterprise plans 
 
+### OpenAI Real-Time GPT-4o
+- **Provider**: OpenAI
+- **Website**: [openai.com](https://openai.com)
+- **Key Features**:
+  - voice to voice
+  - API access
+  - Real-time voice chat
+- **Pricing**: [openai.com/pricing](https://openai.com/pricing)
+  - Pay-per-minute model
+  - Volume discounts available
+  - Custom enterprise plans 
+
+### VAPI
+- **Provider**: VAPI
+- **Website**: [vapi.ai](https://vapi.ai)
+- **Key Features**:
+  - voice to voice
+  - API access
+  - Real-time voice chat
+- **Pricing**: [vapi.ai/pricing](https://vapi.ai/pricing)
+  - Pay-per-minute model
+  - Volume discounts available
+  - Custom enterprise plans 
+
 ## Tools
 
 ### Ollama
@@ -306,3 +330,93 @@ Overview of prominent AI language models and their capabilities.
   - MLOps and deployment
   - Research and experimentation
   - Production inference 
+
+### OpenRouter
+- **Provider**: OpenRouter
+- **Website**: [openrouter.ai](https://openrouter.ai)
+- **GitHub**: [github.com/OpenRouterTeam/openrouter](https://github.com/OpenRouterTeam/openrouter)
+- **Key Features**:
+  - Single API for multiple LLMs
+  - Pay-as-you-go pricing
+  - Access to 50+ models
+  - Unified prompt format
+  - Load balancing
+  - Fallback routing
+- **Supported Models**:
+  - Claude 3
+  - GPT-4
+  - Gemini Pro
+  - Mistral
+  - Anthropic
+  - And many more
+- **Pricing**:
+  - Pay per token
+  - No subscription required
+  - Volume discounts available
+- **Use Cases**:
+  - Model comparison
+  - Production deployment
+  - Cost optimization
+  - Multi-model applications
+  - API standardization
+
+## Uncensored Models
+
+### Dolphin 2.9.2
+- **Provider**: Open Source
+- **Access**: [HuggingFace](https://huggingface.co/cognitivecomputations/dolphin-2.9.2-mistral-7b)
+- **Base Model**: Mistral 7B
+- **Key Features**:
+  - Uncensored responses
+  - High performance/quality ratio
+  - Low hardware requirements
+  - Supports multiple contexts
+  - Good coding capabilities
+- **Deployment**:
+  - Self-hosted via Ollama
+  - Run through various LLM interfaces
+- **Technical Details**:
+  - 7B parameters
+  - Context window: 32k tokens
+  - GGUF format available
+  - Apache 2.0 license
+- **Use Cases**:
+  - Research
+  - Development
+  - Creative writing
+  - Coding assistance 
+
+## Content Curation
+
+### Jina.ai
+- **Provider**: Jina AI
+- **Website**: [jina.ai](https://jina.ai)
+- **Key Features**:
+  - URL to Markdown conversion
+  - World-class embeddings
+  - Neural search and reranking
+  - Zero-shot classification
+  - Text segmentation
+  - Multimodal capabilities
+- **Products**:
+  - Reader: Clean URL content for LLMs
+  - Embeddings: Multilingual & multimodal
+  - Reranker: Search relevancy optimization
+  - Classifier: Image and text classification
+  - Segmenter: Text chunking & tokenization
+- **Use Cases**:
+  - Enterprise search
+  - RAG systems
+  - Content processing
+  - Document analysis
+  - Search optimization
+- **Pricing**:
+  - Free tier available
+  - API-based pricing
+  - SOC 2 Type 1 & 2 compliant
+- **Notable Features**:
+  - No registration required
+  - Simple API integration
+  - High-quality content extraction
+  - Multiple content formats
+  - Streaming support 

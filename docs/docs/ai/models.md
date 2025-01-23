@@ -43,6 +43,10 @@ Overview of prominent AI language models and their capabilities.
 - **Description**: Open-source language model
 - **Key Features**:
   - Code generation
+  - DeepSeek R1 model with 128k context window
+  - Enhanced mathematical reasoning capabilities
+  - Superior code generation performance
+  - Available via API and chat interface
 
 ### Llama 3
 - **Provider**: Meta
@@ -419,4 +423,4 @@ Overview of prominent AI language models and their capabilities.
   - Simple API integration
   - High-quality content extraction
   - Multiple content formats
-  - Streaming support 
+  - Streaming support

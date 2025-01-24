@@ -30,6 +30,13 @@ function HomepageHeader() {
                 to="/intro">
                 Get Started
               </Link>
+              <Link
+                className="button button--whatsapp button--lg"
+                to="https://chat.whatsapp.com/HlNTqnlKhOaKJ1ZRPQDn8g"
+                target="_blank"
+                rel="noopener noreferrer">
+                Join WhatsApp Group
+              </Link>
               <div className={styles.githubButton}>
                 <iframe
                   src="https://ghbtns.com/github-btn.html?user=wizardsupreme&repo=brain&type=star&count=true&size=large"

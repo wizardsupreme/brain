@@ -51,6 +51,20 @@
   color: white;
 }
 
+.button--whatsapp {
+  background: #25D366;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  transition: background 0.3s;
+  color: white;
+  margin-left: 1rem;
+}
+
+.button--whatsapp:hover {
+  background: #128C7E;
+}
+
 .button--primary:hover {
   background: linear-gradient(rgb(255, 156, 43) 0%, rgb(255, 166, 0) 100%);
 }

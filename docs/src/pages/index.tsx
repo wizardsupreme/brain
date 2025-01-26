@@ -11,7 +11,11 @@ function HomepageHeader() {
   const imageUrl = useBaseUrl('img/icons/brain.png');
   
   return (
+
     <header className={styles.heroBanner}>
+          <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript" />
+    <elevenlabs-convai
+      agent-id="ja7kWklgafdKTyfPN88F" />
       <div className="container">
         <div className={styles.heroSection}>
           <div>

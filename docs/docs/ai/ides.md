@@ -14,10 +14,12 @@ AI-enhanced development environments and code editors.
 
 | IDE | Performance | Refactoring | Logical Operations | Deployment | Price | Overall Score |
 |-----|-------------|-------------|-------------------|------------|--------|---------------|
+| codeLLM | 9/10 | 9/10 | 9/10 | 8/10 | 8/10 ($20/m) | 8.8/10 |
 | Cursor | 9/10 | 9/10 | 8/10 | 7/10 | 8/10 ($20/m) | 8.5/10 |
+| trae | 8/10 | 8/10 | 9/10 | 7/10 | 7/10 ($15/m) | 8.0/10 |
+| Continue + Codestral (VSC) | 8/10 | 8/10 | 8/10 | 6/10 | 8/10 (Free) | 8.0/10 |
 | Replit | 8/10 | 7/10 | 7/10 | 9/10 | 6/10 ($25/m) | 7.5/10 |
 | Clint (VSC) | 8/10 | 7/10 | 7/10 | 6/10 | 7/10 (Free) | 7/10 |
-| Continue + Codestral (VSC) | 8/10 | 8/10 | 8/10 | 6/10 | 8/10 (Free) | 8.0/10 |
 | Windsurf | 7/10 | 6/10 | 5/10 | 7/10 | 6/10 ($15/m) | 6.5/10 |
 | Bolt.DIY | 4/10 | 5/10 | 4/10 | 6/10 | 8/10 (Free) | 5/10 |
  
@@ -39,6 +41,9 @@ AI-enhanced development environments and code editors.
   - Refinement layer is highly optimized for code (better than claude 3.5 sonnet on its own)
 - **Cons**:
   - Limited deployment options
+- **Pricing**:
+  - $20/month subscription
+  - No free tier available
 
 ## Windsurf
 - **Website**: [windsurf.dev](https://windsurf.dev)
@@ -46,10 +51,12 @@ AI-enhanced development environments and code editors.
 - **Pros**:
   - Basic refactoring support with room for improvement
   - Integrated deployment options
-  - Higher pricing tier
 - **Cons**:
   - Limited capabilities in complex logical operations
   - Basic refactoring capabilities
+- **Pricing**:
+  - $15/month subscription
+  - No free tier available
 
 ## Replit
 - **Website**: [replit.com](https://replit.com)
@@ -62,6 +69,9 @@ AI-enhanced development environments and code editors.
   - Limited logical reasoning capabilities
   - Basic refactoring capabilities
   - High usage-based pricing with rapid credit consumption per commit
+- **Pricing**:
+  - $25/month subscription
+  - Free tier available with limited credits
 
 ## Bolt.DIY
 - **Website**: [bolt.diy.org](https://bolt.diy.org)
@@ -73,6 +83,9 @@ AI-enhanced development environments and code editors.
 - **Cons**:
   - Limited logical reasoning capabilities
   - Poor local performance, making it impractical for local development
+- **Pricing**:
+  - Completely free
+  - No paid tiers available
 
 ## Continue + Codestral (VSCode)
 
@@ -82,25 +95,65 @@ AI-enhanced development environments and code editors.
   - Enhanced code completion with Codestral 25.01.
   - Seamless integration within VSCode.
   - Open-source and highly customizable.
-  - Free to use.
 - **Cons:**
   - Does not support screenshots, limiting usability for some workflows.
   - Text quality and reasoning are not as refined as Claude or OpenAI-based solutions.
   - Requires configuration for optimal performance.
+- **Pricing:**
+  - Completely free
+  - No paid tiers available
 - **Ideal For:** Developers who prefer open-source tools and prioritize VSCode integration over advanced language understanding.
 
 
-## Clint (VSC)
-- **Marketplace**: [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
-- **Notable Extensions**:
-  - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-  - [Tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
-  - [CodeGPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)
+## trae
+- **Website**: [trae.dev](https://trae.dev)
+- **Description**: AI-powered development environment with advanced reasoning capabilities
 - **Pros**:
-  - AI code completion
-  - Natural language queries
-  - Code explanations 
+  - Excellent logical operations and problem-solving
+  - Strong refactoring support
+  - Good performance and responsiveness
 - **Cons**:
-  - Limited logical reasoning capabilities
-  - Basic refactoring capabilities
-  - Less effective refinement compared to Cursor
+  - Limited deployment options
+  - No free tier available
+  - No Windows support (Linux and macOS only)
+- **Pricing**:
+  - $15/month subscription
+  - No free tier available
+
+## codeLLM
+- **Website**: [codellm.ai](https://codellm.ai)
+- **Description**: Cutting-edge AI development environment with LLM integration
+- **Pros**:
+  - State-of-the-art code completion
+  - Advanced refactoring capabilities
+  - Excellent logical reasoning
+  - Good deployment integration
+- **Cons**:
+  - Requires powerful hardware for optimal performance
+  - Advanced features locked behind Pro tier
+- **Pricing**:
+  - Free tier available with limited features
+  - Pro tier at $20/month
+
+## Cline (VSC)
+- **Marketplace**: [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
+- **Description**: Flexible VSCode extension supporting multiple AI models including DeepseekR1 and Ollama models
+- **Notable Features**:
+  - Support for DeepseekR1 and Ollama models
+  - Pay-per-use API call pricing
+  - Custom model configurations
+- **Pros**:
+  - Flexible model selection
+  - Cost-effective pay-per-use pricing
+  - Advanced code completion
+  - Natural language queries
+  - Code explanations
+- **Cons**:
+  - Requires API key setup
+  - Performance depends on selected model
+  - Less refined UI compared to dedicated IDEs
+- **Pricing**:
+  - Free extension
+  - Pay only for API calls to selected models
+  - DeepseekR1: $0.01 per 1k tokens
+  - Ollama models: varies by model

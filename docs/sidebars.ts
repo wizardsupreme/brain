@@ -45,6 +45,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'doc',
+          id: 'ai/interfaces',
+          label: '🖥️ Interfaces',
+        },
+        {
+          type: 'doc',
           id: 'ai/hosting',
           label: '☁️ Hosting',
         },
